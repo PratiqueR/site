@@ -1,0 +1,7 @@
+---
+title: "Fonction MIN()"
+
+lang: fr
+categories:
+  - Fonction aggrégation
+---

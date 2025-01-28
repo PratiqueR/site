@@ -1,0 +1,7 @@
+---
+title: "Fonction MAX()"
+
+lang: fr
+categories:
+  - Fonction aggrégation
+---

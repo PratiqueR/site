@@ -31,7 +31,18 @@ website:
         contents:
           - text: "Qu'est ce que R ?"
             href: presentationR.qmd
+          - text: "Bonne pratiques"
+            href: bonne_pratique.qmd
             
+          - section: "Fonctions R"
+            contents:
+            
+              - section: "Fonction d'aggrégation"
+                contents:
+                    - fonctions/agregation/somme.qmd
+                    - fonctions/agregation/minimum.qmd
+                    - fonctions/agregation/maximum.qmd
+          
 
         
 
