@@ -1,11 +1,13 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   
   title: "PratiqueR"
   
   navbar:
+  
     left:
       - href: index.qmd
         text: Accueil
@@ -15,6 +17,26 @@ website:
         text: Blog
       - href: contact.qmd
         text: Contact
+        
+    right: 
+      - icon: github
+        href: https://github.com/PratiqueR
+      - icon: envelope
+        href: mailto:pratiquerpro@outlook.com
+        
+  sidebar:
+        style: "docked"
+        background: light
+        search: true
+        contents:
+          - text: "Qu'est ce que R ?"
+            href: presentationR.qmd
+            
+
+        
+
+  
+  page-footer: "Copyright 2025, PratiqueR" 
 
 format:
   html:
