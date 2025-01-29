@@ -1,5 +1,5 @@
 ---
-title: "MIN()"
+title: "LENGTH()"
 
 lang: fr
 categories:

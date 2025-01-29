@@ -1,5 +1,5 @@
 ---
-title: "MIN()"
+title: "SUMMARY()"
 
 lang: fr
 categories:

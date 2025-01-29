@@ -1,7 +1,45 @@
 ---
-title: "Fonction SUM()"
+title: "SUM()"
 
 lang: fr
 categories:
-  - Fonction aggrégation
+  - aggrégation
 ---
+
+La fonction **SUM()**, permet de calculer la somme des éléments d'un objet numérique (vecteur, matrice, variable ...). *Sum()* n'additionne que les valeurs numériques et ignore automatiquement les valeurs manquantes (NA). 
+
+## Syntaxe
+
+L’utilisation de cette fonction se fait de manière simple en indiquant les valeurs ou la variable à additionner. Voici la syntaxe de base pour additionner les éléments d’une variable dans un data frame, par exemple :
+
+``` r
+---
+sum(data$ma_variable)
+---
+```
+
+## Exemple
+
+### Exemple 1
+
+Dans ce premier exemple, nous allons utiliser la fonction sum() pour additionner plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la somme de ces nombres.
+
+``` r
+---
+sum(1,2,3)
+---
+```
+
+```{r echo=FALSE}
+sum(1,2,3)
+```
+
+
+### Exemple 2
+
+
+
+
+
+
+

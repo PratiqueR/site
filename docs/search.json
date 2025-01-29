@@ -5,5 +5,44 @@
     "title": "Exercice",
     "section": "",
     "text": "La pratique constitue l’étape la plus importante dans l’apprentissage d’un langage de programmation. C’est en pratiquant que vous pourrez devenir habile et rusé comme un renard.\nVous trouverez ci-dessous des exercices, aidez-vous des fonctions et ressources présente sur le site."
+  },
+  {
+    "objectID": "fonctions/agregation/somme.html",
+    "href": "fonctions/agregation/somme.html",
+    "title": "SUM()",
+    "section": "",
+    "text": "La fonction SUM(), permet de calculer la somme des éléments d’un objet numérique (vecteur, matrice, variable …). Sum() n’additionne que les valeurs numériques et ignore automatiquement les valeurs manquantes (NA).",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Fonction d'aggrégation",
+      "SUM()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/somme.html#syntaxe",
+    "href": "fonctions/agregation/somme.html#syntaxe",
+    "title": "SUM()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction se fait de manière simple en indiquant les valeurs ou la variable à additionner. Voici la syntaxe de base pour additionner les éléments d’une variable dans un data frame, par exemple :\n---\nsum(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Fonction d'aggrégation",
+      "SUM()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/somme.html#exemple",
+    "href": "fonctions/agregation/somme.html#exemple",
+    "title": "SUM()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction sum() pour additionner plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la somme de ces nombres.\n---\nsum(1,2,3)\n---\n\n\n[1] 6\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Fonction d'aggrégation",
+      "SUM()"
+    ]
   }
 ]

@@ -7,6 +7,8 @@ website:
   title: "PratiqueR"
   
   navbar:
+    
+    background: success
   
     left:
       - href: index.qmd
@@ -26,32 +28,50 @@ website:
         
   sidebar:
         style: "docked"
-        background: light
         search: true
         contents:
           - text: "Qu'est ce que R ?"
-            href: presentationR.qmd
+            href: autre/presentation_R.qmd
           - text: "Bonne pratiques"
-            href: bonne_pratique.qmd
+            href: autre/bonne_pratique.qmd
             
           - section: "Fonctions R"
             contents:
-            
+                
               - section: "Fonction d'aggrégation"
                 contents:
                     - fonctions/agregation/somme.qmd
                     - fonctions/agregation/minimum.qmd
                     - fonctions/agregation/maximum.qmd
-          
+                    - fonctions/agregation/moyenne.qmd
+                    - fonctions/agregation/mediane.qmd
+                    - fonctions/agregation/sd.qmd
+                    - fonctions/agregation/variance.qmd
+                    - fonctions/agregation/prod.qmd
+                    - fonctions/agregation/length.qmd
+                    - fonctions/agregation/range.qmd
+                    - fonctions/agregation/summary.qmd
+                    - fonctions/agregation/table.qmd
+                    - fonctions/agregation/quantile.qmd
+            
+          - section: "Quarto"
+            contents:
+          - section: "Rmarkdown"
+            contents:
+          - section: "API"
+            contents:
+          - section: "Git et Github"
+            contents:
 
-        
 
   
   page-footer: "Copyright 2025, PratiqueR" 
 
 format:
   html:
-    theme: cosmo
+    theme: 
+        light: default
+        dark: solar
     css: styles.css
     toc: true
     page-layout: full

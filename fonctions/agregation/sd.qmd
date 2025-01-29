@@ -1,5 +1,5 @@
 ---
-title: "MIN()"
+title: "SD()"
 
 lang: fr
 categories:

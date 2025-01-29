@@ -1,5 +1,5 @@
 ---
-title: "MIN()"
+title: "RANGE()"
 
 lang: fr
 categories:
