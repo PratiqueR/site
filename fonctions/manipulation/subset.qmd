@@ -1,0 +1,7 @@
+---
+title: "SUBSET()"
+
+lang: fr
+categories:
+  - manipulation
+---

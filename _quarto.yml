@@ -38,7 +38,10 @@ website:
           - section: "Fonctions R"
             contents:
                 
-              - section: "Fonction d'aggrégation"
+              - section: "Gestions de fichiers"
+                contents:
+                
+              - section: "Aggrégation"
                 contents:
                     - fonctions/agregation/somme.qmd
                     - fonctions/agregation/minimum.qmd
@@ -53,7 +56,36 @@ website:
                     - fonctions/agregation/summary.qmd
                     - fonctions/agregation/table.qmd
                     - fonctions/agregation/quantile.qmd
-            
+          
+              - text: "Visualisation"
+                href: fonctions/visualisation.qmd
+                 
+              - section: "Manipulation de données"
+                contents:
+                    - fonctions/manipulation/subset.qmd
+                    - fonctions/manipulation/merge.qmd
+                    - fonctions/manipulation/cbind.qmd
+                    - fonctions/manipulation/rbind.qmd
+                    - fonctions/manipulation/apply.qmd
+                    - fonctions/manipulation/lapply.qmd
+                    - fonctions/manipulation/sapply.qmd
+                    - fonctions/manipulation/tapply.qmd
+                    - fonctions/manipulation/sort.qmd
+                    - fonctions/manipulation/order.qmd
+                    - fonctions/manipulation/split.qmd
+                    - fonctions/manipulation/transform.qmd
+                    - fonctions/manipulation/rep.qmd
+                    - fonctions/manipulation/seq.qmd
+                    
+              - section: "Tests statistiques"
+                contents:
+                    - fonctions/test/
+                    - fonctions/test/
+          
+          - section: "Packages"
+            contents:  
+          - section: "Machine Learning"
+            contents:  
           - section: "Quarto"
             contents:
           - section: "Rmarkdown"

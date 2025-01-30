@@ -6,7 +6,7 @@ categories:
   - aggrégation
 ---
 
-La fonction **SUM()**, permet de calculer la somme des éléments d'un objet numérique (vecteur, matrice, variable ...). *Sum()* n'additionne que les valeurs numériques et ignore automatiquement les valeurs manquantes (NA). 
+La fonction **SUM()**, permet de calculer la somme des éléments d'un objet numérique (vecteur, matrice, variable ...). *Sum()* n'additionne que les valeurs numériques et ignore automatiquement les valeurs manquantes (NA).
 
 ## Syntaxe
 
@@ -34,12 +34,4 @@ sum(1,2,3)
 sum(1,2,3)
 ```
 
-
 ### Exemple 2
-
-
-
-
-
-
-
