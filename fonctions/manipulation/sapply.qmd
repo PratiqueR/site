@@ -1,0 +1,7 @@
+---
+title: "SAPPLY()"
+
+lang: fr
+categories:
+  - manipulation
+---

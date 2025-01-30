@@ -1,0 +1,7 @@
+---
+title: "SEQ()"
+
+lang: fr
+categories:
+  - manipulation
+---

@@ -1,0 +1,7 @@
+---
+title: "RBIND()"
+
+lang: fr
+categories:
+  - manipulation
+---

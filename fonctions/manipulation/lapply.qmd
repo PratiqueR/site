@@ -1,0 +1,7 @@
+---
+title: "LAPPLY()"
+
+lang: fr
+categories:
+  - manipulation
+---

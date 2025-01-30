@@ -1,0 +1,7 @@
+---
+title: "APPLY()"
+
+lang: fr
+categories:
+  - manipulation
+---

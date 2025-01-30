@@ -1,0 +1,7 @@
+---
+title: "SPLIT()"
+
+lang: fr
+categories:
+  - manipulation
+---

@@ -1,3 +1,13 @@
 ---
-title: "Bienvenue sur PratiqueR !"
+title: "Bienvenue sur PratiqueR ! 🚀"
+subtitle: "Maîtrisez R en vous exerçant – Tutoriels, astuces et défis pour booster vos compétences !"
+lang: fr
 ---
+
+PratiqueR est votre **nouvel espace d'apprentissage interactif**. Que vous soyez un débutant curieux ou un expert en quête de perfectionnement, ce site est conçu pour vous !  
+Ici, vous trouverez des **exercices pratiques**, des **tutoriels détaillés**, des **astuces** et des **bonnes pratiques** pour devenir un maître de R.
+
+
+
+
+

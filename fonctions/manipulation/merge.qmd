@@ -1,0 +1,7 @@
+---
+title: "MERGE()"
+
+lang: fr
+categories:
+  - manipulation
+---

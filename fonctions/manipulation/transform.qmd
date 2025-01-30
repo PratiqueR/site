@@ -1,0 +1,7 @@
+---
+title: "TRANSFORM()"
+
+lang: fr
+categories:
+  - manipulation
+---

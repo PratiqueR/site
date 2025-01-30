@@ -1,0 +1,7 @@
+---
+title: "TAPPLY()"
+
+lang: fr
+categories:
+  - manipulation
+---
