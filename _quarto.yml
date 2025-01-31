@@ -91,11 +91,18 @@ website:
           - section: "Packages"
             contents:  
           - section: "Machine Learning"
-            contents:  
+            contents:
+          - section: "Deep Learning"
+            contents:
+          - section: "Shiny"
+            contents:
           - section: "Quarto"
             contents:
-          - section: "Rmarkdown"
-            contents:
+                    - fonctions/quarto/presentation_quarto.qmd
+          - text: "Rmarkdown"
+            href: autre/rmarkdown.qmd
+          - text: "Web scraping"
+            href: autre/webscraping.qmd
           - section: "API"
             contents:
           - section: "Git et Github"
