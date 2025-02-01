@@ -31,13 +31,13 @@ website:
         search: true
         contents:
           - text: "Qu'est ce que R ?"
-            href: autre/presentation_R.qmd
+            href: pages/presentation_R.qmd
             
           - text: "Installation et Configuration"
-            href: autre/installation.qmd
+            href: pages/installation.qmd
             
           - text: "Bonne pratiques"
-            href: autre/bonne_pratique.qmd
+            href: pages/bonne_pratique.qmd
             
             
             
@@ -98,11 +98,11 @@ website:
             contents:
           - section: "Quarto"
             contents:
-                    - fonctions/quarto/presentation_quarto.qmd
+                    - pages/quarto/presentation_quarto.qmd
           - text: "Rmarkdown"
-            href: autre/rmarkdown.qmd
+            href: pages/rmarkdown.qmd
           - text: "Web scraping"
-            href: autre/webscraping.qmd
+            href: pages/webscraping.qmd
           - section: "API"
             contents:
           - section: "Git et Github"
