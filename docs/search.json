@@ -48,9 +48,9 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Rachid Sahli",
+    "title": "Contactez-nous ! 📩",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
+    "text": "Si vous avez des questions, des suggestions ou si vous souhaitez collaborer, n’hésitez pas à nous contacter via le formulaire ci-dessous ou sur nos réseaux sociaux.\n\n\n\n  Nom :\n  \n\n  Email :\n  \n\n  Message :\n  \n\n  Envoyer\n\n\n🔗 Nos réseaux\nRetrouvez-nous sur nos réseaux et suivez nos dernières actualités :\n\n\n\n  \n    🐦 Twitter\n  \n  \n    👨‍💻 GitHub\n  \n  \n    🔗 LinkedIn"
   },
   {
     "objectID": "contact.html#education",
@@ -79,5 +79,12 @@
     "title": "Blog",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "contact.html#contactez-nous",
+    "href": "contact.html#contactez-nous",
+    "title": "Contact",
+    "section": "",
+    "text": "Si vous avez des questions, des suggestions ou si vous souhaitez collaborer, n’hésitez pas à nous contacter via le formulaire ci-dessous ou sur nos réseaux sociaux."
   }
 ]

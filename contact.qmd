@@ -1,4 +1,126 @@
 ---
-title: "Contact"
+title: "Contactez-nous ! 📩"
 lang: fr
+toc: false
 ---
+
+Si vous avez des questions, des suggestions ou si vous souhaitez collaborer, n’hésitez pas à nous contacter via le formulaire ci-dessous ou sur nos réseaux sociaux.  
+
+```{=html}
+<style>
+  form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--quarto-background-color, #f9f9f9);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: var(--quarto-foreground-color, #000);
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--quarto-border-color, #ccc);
+    border-radius: 5px;
+    font-size: 16px;
+    background: var(--quarto-background-color, #fff);
+    color: var(--quarto-foreground-color, #000);
+  }
+
+  input:focus, textarea:focus {
+    border-color: var(--quarto-link-color, #007bff);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  button {
+    background: var(--quarto-link-color, #007bff);
+    color: var(--quarto-foreground-color, #fff);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background: var(--quarto-link-hover-color, #0056b3);
+  }
+</style>
+
+<form action="https://formspree.io/f/pratiquerpro@outlook.com" method="POST">
+  <label for="name">Nom :</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email :</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message :</label>
+  <textarea id="message" name="message" rows="4" required></textarea>
+
+  <button type="submit">Envoyer</button>
+</form>
+```
+
+# 🔗 Nos réseaux
+
+Retrouvez-nous sur nos réseaux et suivez nos dernières actualités :  
+
+```{=html}
+<style>
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .social-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+
+  .twitter { background: #1DA1F2; }
+  .github { background: #333; }
+  .linkedin { background: #0077B5; }
+
+  .social-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+
+  .social-button i {
+    margin-right: 8px;
+  }
+</style>
+
+<div class="social-buttons">
+  <a href="https://twitter.com/" class="social-button twitter" target="_blank">
+    🐦 Twitter
+  </a>
+  <a href="https://github.com/PratiqueR" class="social-button github" target="_blank">
+    👨‍💻 GitHub
+  </a>
+  <a href="https://www.linkedin.com/in/PratiqueR/" class="social-button linkedin" target="_blank">
+    🔗 LinkedIn
+  </a>
+</div>
+```
+
+

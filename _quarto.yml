@@ -21,6 +21,8 @@ website:
         text: Contact
         
     right: 
+      - icon: youtube
+        href: https://youtube/PratiqueR
       - icon: github
         href: https://github.com/PratiqueR
       - icon: envelope
