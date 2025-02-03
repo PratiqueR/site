@@ -5,3 +5,33 @@ lang: fr
 categories:
   - aggrégation
 ---
+
+La fonction **LENGTH()** permet d'obtenir le nombre d'éléments contenus dans un objet (vecteur, liste, colonne d’un data frame, etc.). Elle est couramment utilisée pour connaître la taille d’un vecteur ou le nombre d'observations d'une variable.
+
+## Syntaxe
+
+L'utilisation de cette fonction est simple : il suffit d'indiquer l'objet dont on souhaite connaître la taille. Voici la syntaxe de base pour obtenir la longueur d’un vecteur ou d’une variable d’un data frame :
+
+``` r
+---
+length(data$ma_variable)
+---
+```
+
+## Exemple
+
+### Exemple 1
+
+Dans ce premier exemple, nous allons utiliser la fonction length() pour connaître le nombre d’éléments d’un vecteur numérique.
+
+``` r
+---
+length(c(1,2,3,4,5))
+---
+```
+
+```{r echo=FALSE}
+length(c(1,2,3,4,5))
+```
+
+### Exemple 2

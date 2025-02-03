@@ -2,9 +2,9 @@
   {
     "objectID": "exercice.html",
     "href": "exercice.html",
-    "title": "PratiqueR en action",
+    "title": "PratiqueR en action !",
     "section": "",
-    "text": "La pratique constitue l’étape la plus importante dans l’apprentissage d’un langage de programmation. C’est en pratiquant que vous pourrez devenir habile et rusé comme un renard.\nVous trouverez ci-dessous des exercices, aidez-vous des fonctions et ressources présente sur le site."
+    "text": "La pratique constitue l’étape la plus importante dans l’apprentissage d’un langage de programmation. C’est en pratiquant que vous pourrez devenir habile et rusé comme un renard.\nVous trouverez ci-dessous des exercices, aidez-vous des fonctions et ressources présente sur le site.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "fonctions/agregation/somme.html",
@@ -86,5 +86,265 @@
     "title": "Contact",
     "section": "",
     "text": "Si vous avez des questions, des suggestions ou si vous souhaitez collaborer, n’hésitez pas à nous contacter via le formulaire ci-dessous ou sur nos réseaux sociaux."
+  },
+  {
+    "objectID": "fonctions/agregation/maximum.html",
+    "href": "fonctions/agregation/maximum.html",
+    "title": "MAX()",
+    "section": "",
+    "text": "La fonction MAX() permet de calculer la valeur maximale d’un objet numérique (vecteur, matrice, variable …). Max() renvoie la plus grande valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.\nVoici la page pour la fonction MAX() dans le même format :\nmarkdown Copy Edit\nLa fonction MAX() permet de calculer la valeur maximale d’un objet numérique (vecteur, matrice, variable …). Max() renvoie la plus grande valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/maximum.html#exemple",
+    "href": "fonctions/agregation/maximum.html#exemple",
+    "title": "MAX()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction max() pour obtenir la valeur maximale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus grande valeur parmi ces nombres.\n---\nmax(1,2,3)\n---\n\n\n[1] 3\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/maximum.html#exemple-1-1",
+    "href": "fonctions/agregation/maximum.html#exemple-1-1",
+    "title": "MAX()",
+    "section": "Exemple 1",
+    "text": "Exemple 1\nDans ce premier exemple, nous allons utiliser la fonction max() pour obtenir la valeur maximale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus grande valeur parmi ces nombres.\n---\nmax(1,2,3)\n---\n\n\n[1] 3",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/maximum.html#example-2",
+    "href": "fonctions/agregation/maximum.html#example-2",
+    "title": "MAX()",
+    "section": "Example 2",
+    "text": "Example 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/maximum.html#exemple-1",
+    "href": "fonctions/agregation/maximum.html#exemple-1",
+    "title": "MAX()",
+    "section": "Exemple 1",
+    "text": "Exemple 1\nDans ce premier exemple, nous allons utiliser la fonction max() pour obtenir la valeur maximale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus grande valeur parmi ces nombres.\n---\nmax(1,2,3)\n---\n\n\n[1] 3",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/somme.html#exemple-1",
+    "href": "fonctions/agregation/somme.html#exemple-1",
+    "title": "SUM()",
+    "section": "Exemple 1",
+    "text": "Exemple 1\nDans ce premier exemple, nous allons utiliser la fonction sum() pour additionner plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la somme de ces nombres.\n---\nsum(1,2,3)\n---\n\n\n[1] 6",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SUM()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/somme.html#exemple-2",
+    "href": "fonctions/agregation/somme.html#exemple-2",
+    "title": "SUM()",
+    "section": "Exemple 2",
+    "text": "Exemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SUM()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/maximum.html#syntaxe",
+    "href": "fonctions/agregation/maximum.html#syntaxe",
+    "title": "MAX()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple, il suffit d’indiquer les valeurs ou la variable pour laquelle vous souhaitez trouver la valeur maximale. Voici la syntaxe de base pour obtenir la valeur maximale d’une variable dans un data frame, par exemple :\n---\nmax(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/minimum.html",
+    "href": "fonctions/agregation/minimum.html",
+    "title": "MIN()",
+    "section": "",
+    "text": "La fonction MIN() permet de calculer la valeur minimale d’un objet numérique (vecteur, matrice, variable …). Min() renvoie la plus petite valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MIN()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/minimum.html#syntaxe",
+    "href": "fonctions/agregation/minimum.html#syntaxe",
+    "title": "MIN()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple, il suffit d’indiquer les valeurs ou la variable pour laquelle vous souhaitez trouver la valeur minimale. Voici la syntaxe de base pour obtenir la valeur minimale d’une variable dans un data frame, par exemple :\n---\nmin(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MIN()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/minimum.html#exemple",
+    "href": "fonctions/agregation/minimum.html#exemple",
+    "title": "MIN()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction min() pour obtenir la valeur minimale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus petite valeur parmi ces nombres.\n---\nmin(1,2,3)\n---\n\n\n[1] 1\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MIN()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/length.html",
+    "href": "fonctions/agregation/length.html",
+    "title": "LENGTH()",
+    "section": "",
+    "text": "La fonction LENGTH() permet d’obtenir le nombre d’éléments contenus dans un objet (vecteur, liste, colonne d’un data frame, etc.). Elle est couramment utilisée pour connaître la taille d’un vecteur ou le nombre d’observations d’une variable.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "LENGTH()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/length.html#syntaxe",
+    "href": "fonctions/agregation/length.html#syntaxe",
+    "title": "LENGTH()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer l’objet dont on souhaite connaître la taille. Voici la syntaxe de base pour obtenir la longueur d’un vecteur ou d’une variable d’un data frame :\n---\nlength(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "LENGTH()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/length.html#exemple",
+    "href": "fonctions/agregation/length.html#exemple",
+    "title": "LENGTH()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction length() pour connaître le nombre d’éléments d’un vecteur numérique.\n---\nlength(c(1,2,3,4,5))\n---\n\n\n[1] 5\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "LENGTH()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/moyenne.html",
+    "href": "fonctions/agregation/moyenne.html",
+    "title": "MEAN()",
+    "section": "",
+    "text": "La fonction MEAN() permet de calculer la moyenne arithmétique des éléments d’un objet numérique (vecteur, matrice, variable …). Mean() additionne les valeurs numériques et les divise par leur nombre total. Par défaut, les valeurs manquantes (NA) ne sont pas ignorées et renvoient un résultat NA.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEAN()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/moyenne.html#syntaxe",
+    "href": "fonctions/agregation/moyenne.html#syntaxe",
+    "title": "MEAN()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite calculer la moyenne. Voici la syntaxe de base pour obtenir la moyenne d’une variable dans un data frame :\n---\nmean(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEAN()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/moyenne.html#exemple",
+    "href": "fonctions/agregation/moyenne.html#exemple",
+    "title": "MEAN()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction mean() pour calculer la moyenne de plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la moyenne de ces nombres.\n---\nmean(1,2,3,4,5)\n---\n\n\n[1] 1\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEAN()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/mediane.html",
+    "href": "fonctions/agregation/mediane.html",
+    "title": "MEDIAN()",
+    "section": "",
+    "text": "La fonction MEDIAN() permet de calculer la médiane d’un ensemble de valeurs numériques. La médiane est la valeur centrale d’un ensemble de nombres triés dans l’ordre croissant. Si le nombre d’éléments est impair, la médiane est le nombre du milieu. Si le nombre d’éléments est pair, la médiane est la moyenne des deux valeurs centrales.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEDIAN()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/mediane.html#syntaxe",
+    "href": "fonctions/agregation/mediane.html#syntaxe",
+    "title": "MEDIAN()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir la médiane. Voici la syntaxe de base pour calculer la médiane d’une variable dans un data frame :\n---\nmedian(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEDIAN()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/mediane.html#exemple",
+    "href": "fonctions/agregation/mediane.html#exemple",
+    "title": "MEDIAN()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction median() pour obtenir la valeur centrale d’un ensemble de chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction trie les valeurs et retourne la médiane.\n---\nmedian(c(1,3,5,7,9))\n---\n\n\n[1] 5\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEDIAN()"
+    ]
   }
 ]
