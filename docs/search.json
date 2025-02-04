@@ -70,8 +70,8 @@
     "objectID": "index.html#pourquoi-pratiquer",
     "href": "index.html#pourquoi-pratiquer",
     "title": "Bienvenue sur PratiqueR ! 🚀",
-    "section": "Pourquoi PratiqueR ?",
-    "text": "Pourquoi PratiqueR ?\n\n📚 Apprentissage actif : Pratiquez avec des exercices concrets pour progresser rapidement.\n\n💡 Ressources adaptées à tous les niveaux : Des bases aux concepts avancés, chaque utilisateur y trouvera son compte.\n\n🏆 Défis de programmation : Mettez vos compétences à l’épreuve avec des exercices motivants.\n\n\n\n👩‍💻 Commencez dès maintenant !\nFaites vos premiers pas dans l’univers de R avec notre présentation interactive.\nNe perdez pas une minute et plongez dans l’apprentissage !\n📌 Commencez ici\n\n\n\n🌱 Ce que vous apprendrez sur PratiqueR\n\nVisualisation de données avec ggplot2\n\nManipulation de données avec dplyr\n\nModélisation et Machine Learning\n\nGestion des fichiers : lire, écrire et analyser vos données\n\n\n\n🚀 Rejoignez la communauté\nPratiqueR, c’est aussi une communauté dynamique où les passionnés de R échangent des astuces et se soutiennent.\nN’hésitez pas à nous suivre et à partager vos progrès !\n\nPrêt à passer à l’action ?\nExplorez notre bibliothèque d’exercices et commencez à coder dès aujourd’hui. Vous êtes à un clic de devenir un expert R !\n\n\n\nNos utilisateurs en parlent\n“PratiqueR a transformé ma manière d’apprendre R. Les exercices sont concrets et progressifs !” - Clara, Développeuse”\n”Un site complet et bien pensé pour tous ceux qui veulent maîtriser R de manière pratique.” - Léo, Analyste de données”"
+    "section": "",
+    "text": "PratiqueR est votre nouvel espace d’apprentissage interactif dédié au langage R. Que vous soyez débutant ou expérimenté, ce site vous accompagne dans votre progression en mettant l’accent sur la pratique et l’expérimentation."
   },
   {
     "objectID": "blog.html",
@@ -346,5 +346,97 @@
       "Aggrégation",
       "MEDIAN()"
     ]
+  },
+  {
+    "objectID": "fonctions/agregation/sd.html",
+    "href": "fonctions/agregation/sd.html",
+    "title": "SD()",
+    "section": "",
+    "text": "La fonction SD() permet de calculer l’écart-type d’un ensemble de valeurs numériques. L’écart-type mesure la dispersion des données autour de leur moyenne. Plus l’écart-type est élevé, plus les valeurs sont dispersées.\nL’écart-type (\\(\\sigma\\) pour une population, \\(s\\) pour un échantillon) est défini par la formule suivante :\n\\[\ns = \\sqrt{\\frac{1}{n-1} \\sum_{i=1}^{n} (x_i - \\bar{x})^2}\n\\]\noù :",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SD()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/sd.html#syntaxe",
+    "href": "fonctions/agregation/sd.html#syntaxe",
+    "title": "SD()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir l’écart-type. Voici la syntaxe de base pour calculer l’écart-type d’une variable dans un data frame :\nsd(data$ma_variable)",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SD()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/sd.html#exemple",
+    "href": "fonctions/agregation/sd.html#exemple",
+    "title": "SD()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction sd() pour calculer l’écart-type d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.\n---\nsd(c(1,2,3,4,5))\n---\n\n\n[1] 1.581139\n\n\nIci, l’écart-type est 1.58, ce qui indique la dispersion des valeurs autour de leur moyenne.\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SD()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/variance.html",
+    "href": "fonctions/agregation/variance.html",
+    "title": "VAR()",
+    "section": "",
+    "text": "La fonction VAR() permet de calculer la variance d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne. Plus la variance est élevée, plus les valeurs sont dispersées.\nLa variance (\\(sigma^2\\) pour une population, \\(s^2\\) pour un échantillon) est définie par la formule suivante :\n\\[\ns^2 = \\frac{1}{n-1} \\sum_{i=1}^{n} (x_i - \\bar{x})^2\n\\]\noù :",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "VAR()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/variance.html#syntaxe",
+    "href": "fonctions/agregation/variance.html#syntaxe",
+    "title": "VAR()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir la variance. Voici la syntaxe de base pour calculer la variance d’une variable dans un data frame :\nvar(data$ma_variable)",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "VAR()"
+    ]
+  },
+  {
+    "objectID": "fonctions/agregation/variance.html#exemple",
+    "href": "fonctions/agregation/variance.html#exemple",
+    "title": "VAR()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction var() pour calculer la variance d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.\n---\nvar(c(1,2,3,4,5))\n---\n\n\n[1] 2.5\n\n\nIci, la variance est 2.5, ce qui représente la dispersion des valeurs autour de leur moyenne.\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "VAR()"
+    ]
+  },
+  {
+    "objectID": "index.html#ce-que-vous-allez-trouver-ici",
+    "href": "index.html#ce-que-vous-allez-trouver-ici",
+    "title": "Bienvenue sur PratiqueR ! 🚀",
+    "section": "Ce que vous allez trouver ici",
+    "text": "Ce que vous allez trouver ici\n✨ Des tutoriels progressifs : Des bases aux concepts avancés, explorez les fondamentaux de R en toute simplicité.\n📊 Des cas pratiques : Appliquez vos connaissances à travers des exemples concrets et des problèmes réels.\n💡 Des fiches fonction & package : Comprenez et maîtrisez les outils essentiels du langage R.\n🎯 Des défis et quiz interactifs : Testez vos compétences et mettez-vous à l’épreuve !"
+  },
+  {
+    "objectID": "index.html#commencez-dès-maintenant",
+    "href": "index.html#commencez-dès-maintenant",
+    "title": "Bienvenue sur PratiqueR ! 🚀",
+    "section": "Commencez dès maintenant !",
+    "text": "Commencez dès maintenant !\n🚀 Naviguez dans les sections et choisissez votre premier exercice !\n📚 Vous cherchez une fonction spécifique ? Consultez notre répertoire des fonctions.\n📝 Besoin d’un guide pas à pas ? Explorez nos tutoriels détaillés.\n🔥 Prêt à relever un défi ? Lancez-vous dans nos exercices pratiques !\nR est un outil puissant – maîtrisez-le avec PratiqueR !"
   }
 ]

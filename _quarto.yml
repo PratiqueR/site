@@ -96,6 +96,8 @@ website:
             contents:
           - section: "Deep Learning"
             contents:
+          - section: "Cartographie"
+            contents:
           - section: "Shiny"
             contents:
           - section: "Quarto"
