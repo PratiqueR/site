@@ -466,17 +466,21 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Cartographie</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
  <span class="menu-text">Shiny</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
  <span class="menu-text">Quarto</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../pages/quarto/presentation_quarto.html" class="sidebar-item-text sidebar-link">
@@ -549,7 +553,7 @@ window.Quarto = {
 </header>
 
 
-<p>La fonction <strong>VAR()</strong> permet de calculer la variance d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne. Plus la variance est élevée, plus les valeurs sont dispersées.</p>
+<p>La fonction <strong><code>var()</code></strong> permet de calculer la <strong>variance</strong> d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne. Plus la variance est élevée, plus les valeurs sont dispersées.</p>
 <p>La variance (<span class="math inline">\(sigma^2\)</span> pour une population, <span class="math inline">\(s^2\)</span> pour un échantillon) est définie par la formule suivante :</p>
 <p><span class="math display">\[
 s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2
@@ -569,7 +573,7 @@ s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2
 <h2 class="anchored" data-anchor-id="exemple">Exemple</h2>
 <section id="exemple-1" class="level3">
 <h3 class="anchored" data-anchor-id="exemple-1">Exemple 1</h3>
-<p>Dans ce premier exemple, nous allons utiliser la fonction var() pour calculer la variance d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.</p>
+<p>Dans ce premier exemple, nous allons utiliser la fonction <strong><code>var()</code></strong> pour calculer la variance d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">var</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>))</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>

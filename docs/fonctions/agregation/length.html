@@ -437,17 +437,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Cartographie</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
  <span class="menu-text">Shiny</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
  <span class="menu-text">Quarto</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../pages/quarto/presentation_quarto.html" class="sidebar-item-text sidebar-link">
@@ -520,7 +524,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>La fonction <strong>LENGTH()</strong> permet d’obtenir le nombre d’éléments contenus dans un objet (vecteur, liste, colonne d’un data frame, etc.). Elle est couramment utilisée pour connaître la taille d’un vecteur ou le nombre d’observations d’une variable.</p>
+<p>La fonction <strong><code>length()</code></strong> permet d’obtenir le <strong>nombre</strong> d’éléments contenus dans un objet (<em>vecteur, liste, colonne d’un data frame…</em>). Elle est couramment utilisée pour connaître la taille d’un vecteur ou le nombre d’observations d’une variable.</p>
 <section id="syntaxe" class="level2">
 <h2 class="anchored" data-anchor-id="syntaxe">Syntaxe</h2>
 <p>L’utilisation de cette fonction est simple : il suffit d’indiquer l’objet dont on souhaite connaître la taille. Voici la syntaxe de base pour obtenir la longueur d’un vecteur ou d’une variable d’un data frame :</p>
@@ -532,7 +536,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="exemple">Exemple</h2>
 <section id="exemple-1" class="level3">
 <h3 class="anchored" data-anchor-id="exemple-1">Exemple 1</h3>
-<p>Dans ce premier exemple, nous allons utiliser la fonction length() pour connaître le nombre d’éléments d’un vecteur numérique.</p>
+<p>Dans ce premier exemple, nous allons utiliser la fonction <strong><code>length()</code></strong> pour connaître le nombre d’éléments d’un vecteur numérique.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>))</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>

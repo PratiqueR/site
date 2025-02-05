@@ -437,17 +437,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Cartographie</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
  <span class="menu-text">Shiny</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
  <span class="menu-text">Quarto</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../pages/quarto/presentation_quarto.html" class="sidebar-item-text sidebar-link">
@@ -520,7 +524,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>La fonction <strong>MIN()</strong> permet de calculer la valeur minimale d’un objet numérique (vecteur, matrice, variable …). <strong>Min()</strong> renvoie la plus petite valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.</p>
+<p>La fonction <strong><code>min()</code></strong> permet de calculer la valeur <strong>minimale</strong> d’un objet numérique (<em>vecteur, matrice, variable …</em>). Elle renvoie la plus petite valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (<code>NA</code>) si spécifié.</p>
 <section id="syntaxe" class="level2">
 <h2 class="anchored" data-anchor-id="syntaxe">Syntaxe</h2>
 <p>L’utilisation de cette fonction est simple, il suffit d’indiquer les valeurs ou la variable pour laquelle vous souhaitez trouver la valeur minimale. Voici la syntaxe de base pour obtenir la valeur minimale d’une variable dans un data frame, par exemple :</p>
@@ -532,7 +536,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="exemple">Exemple</h2>
 <section id="exemple-1" class="level3">
 <h3 class="anchored" data-anchor-id="exemple-1">Exemple 1</h3>
-<p>Dans ce premier exemple, nous allons utiliser la fonction <code>min()</code> pour obtenir la valeur minimale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus petite valeur parmi ces nombres.</p>
+<p>Dans ce premier exemple, nous allons utiliser la fonction <strong><code>min()</code></strong> pour obtenir la valeur minimale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus petite valeur parmi ces nombres.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">min</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
