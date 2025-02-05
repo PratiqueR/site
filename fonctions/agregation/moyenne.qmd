@@ -6,7 +6,7 @@ categories:
   - aggrégation
 ---
 
-La fonction **MEAN()** permet de calculer la moyenne arithmétique des éléments d’un objet numérique (vecteur, matrice, variable ...). **Mean()** additionne les valeurs numériques et les divise par leur nombre total. Par défaut, les valeurs manquantes (`NA`) ne sont pas ignorées et renvoient un résultat `NA`.
+La fonction **`mean()`** permet de calculer la **moyenne** arithmétique des éléments d’un objet numérique (*vecteur, matrice, variable ...*). Elle additionne les valeurs numériques et les divise par leur nombre total. Par défaut, les valeurs manquantes (`NA`) ne sont pas ignorées et renvoient un résultat `NA`.
 
 ## Syntaxe
 
@@ -22,7 +22,7 @@ mean(data$ma_variable)
 
 ### Exemple 1
 
-Dans ce premier exemple, nous allons utiliser la fonction `mean()` pour calculer la moyenne de plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la moyenne de ces nombres.
+Dans ce premier exemple, nous allons utiliser la fonction **`mean()`** pour calculer la moyenne de plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la moyenne de ces nombres.
 
 ``` r
 ---

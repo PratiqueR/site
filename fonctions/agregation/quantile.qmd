@@ -5,3 +5,45 @@ lang: fr
 categories:
   - aggrégation
 ---
+
+La fonction **`quantile()`** permet de calculer les **quantiles** d’un ensemble de valeurs numériques. Un quantile est une valeur qui divise les données en segments égaux.
+
+## Syntaxe
+
+L'utilisation de la fonction se fait en fournissant un vecteur numérique ainsi qu’un vecteur de probabilités correspondant aux quantiles souhaités. Par défaut, la fonction retourne les quartiles (`0%, 25%, 50%, 75%, 100%`), mais il est possible de spécifier d’autres probabilités.
+
+``` r
+---
+quantile(data$ma_variable) # Variable au format numeric uniquement !
+---
+```
+
+## Exemple
+
+### Exemple 1
+
+Calculons les quartiles d’un ensemble de données :
+
+``` r
+---
+quantile(c(10, 20, 30, 40, 50)) # Par défaut, les quartiles sont : 0%, 25%, 50%, 75%, 100%
+---
+```
+
+```{r echo=FALSE}
+quantile(c(10, 20, 30, 40, 50))
+```
+
+Essayons avec une probabilité différente, spécifié avec le pramètre `probs =` :
+
+``` r
+---
+quantile(c(10, 20, 30, 40, 50), probs = 0.80) # Probabilité : 80%
+---
+```
+
+```{r echo=FALSE}
+quantile(c(10, 20, 30, 40, 50), probs = 0.80)
+```
+
+### Exemple 2

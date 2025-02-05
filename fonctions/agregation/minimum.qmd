@@ -6,7 +6,7 @@ categories:
   - aggrégation
 ---
 
-La fonction **MIN()** permet de calculer la valeur minimale d’un objet numérique (vecteur, matrice, variable ...). **Min()** renvoie la plus petite valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.
+La fonction **`min()`** permet de calculer la valeur **minimale** d’un objet numérique (*vecteur, matrice, variable ...*). Elle renvoie la plus petite valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (`NA`) si spécifié.
 
 ## Syntaxe
 
@@ -22,7 +22,7 @@ min(data$ma_variable)
 
 ### Exemple 1
 
-Dans ce premier exemple, nous allons utiliser la fonction `min()` pour obtenir la valeur minimale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus petite valeur parmi ces nombres.
+Dans ce premier exemple, nous allons utiliser la fonction **`min()`** pour obtenir la valeur minimale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus petite valeur parmi ces nombres.
 
 ``` r
 ---

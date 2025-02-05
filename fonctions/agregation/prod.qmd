@@ -5,3 +5,33 @@ lang: fr
 categories:
   - aggrégation
 ---
+
+La fonction **`prod()`** permet de calculer le **produit** des éléments d'un objet numérique (*vecteur, matrice, variable ...*). Elle multiplie uniquement les valeurs numériques et ignore automatiquement les valeurs manquantes (`NA`).  
+
+## Syntaxe  
+
+L’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable contenant les éléments à multiplier.  
+
+``` r
+---
+prod(data$ma_variable)
+---
+```
+
+## Exemple
+
+### Exemple 1
+
+Dans cet exemple, nous allons utiliser la fonction **`prod()`** pour multiplier plusieurs nombres. Il suffit de passer les valeurs dans la fonction, séparées par des virgules :
+
+``` r
+---
+prod(2,3,4)
+---
+```
+
+```{r echo=FALSE}
+prod(2,3,4)
+```
+
+### Exemple 2

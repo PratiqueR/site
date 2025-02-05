@@ -6,7 +6,7 @@ categories:
   - aggrégation
 ---
 
-La fonction **VAR()** permet de calculer la variance d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne. Plus la variance est élevée, plus les valeurs sont dispersées.
+La fonction **`var()`** permet de calculer la **variance** d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne. Plus la variance est élevée, plus les valeurs sont dispersées.
 
 La variance ($sigma^2$ pour une population, $s^2$ pour un échantillon) est définie par la formule suivante :
 
@@ -34,7 +34,7 @@ var(data$ma_variable)
 
 ### Exemple 1
 
-Dans ce premier exemple, nous allons utiliser la fonction var() pour calculer la variance d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.
+Dans ce premier exemple, nous allons utiliser la fonction **`var()`** pour calculer la variance d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.
 
 ``` r
 ---

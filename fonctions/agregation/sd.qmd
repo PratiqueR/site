@@ -6,7 +6,7 @@ categories:
   - aggrégation
 ---
 
-La fonction **SD()** permet de calculer l’écart-type d’un ensemble de valeurs numériques. L’écart-type mesure la dispersion des données autour de leur moyenne. Plus l’écart-type est élevé, plus les valeurs sont dispersées.
+La fonction **`sd()`** permet de calculer l’**écart-type** d’un ensemble de valeurs numériques. L’écart-type mesure la dispersion des données autour de leur moyenne. Plus l’écart-type est élevé, plus les valeurs sont dispersées.
 
 L’écart-type ($\sigma$ pour une population, $s$ pour un échantillon) est défini par la formule suivante :
 
@@ -34,7 +34,7 @@ sd(data$ma_variable)
 
 ### Exemple 1
 
-Dans ce premier exemple, nous allons utiliser la fonction `sd()` pour calculer l’écart-type d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.
+Dans ce premier exemple, nous allons utiliser la fonction **`sd()`** pour calculer l’écart-type d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.
 
 ``` r
 ---

@@ -6,22 +6,7 @@ categories:
   - aggrégation
 ---
 
-La fonction **MAX()** permet de calculer la valeur maximale d’un objet numérique (vecteur, matrice, variable ...). *Max()* renvoie la plus grande valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.
-
-
-Voici la page pour la fonction MAX() dans le même format :
-
-markdown
-Copy
-Edit
----
-title: "MAX()"
-lang: fr
-categories:
-  - aggrégation
----
-
-La fonction **MAX()** permet de calculer la valeur maximale d’un objet numérique (vecteur, matrice, variable ...). **Max()** renvoie la plus grande valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.
+La fonction **`max()`** permet de calculer la valeur **maximale** d’un objet numérique (*vecteur, matrice, variable...*). Elle renvoie la plus grande valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (`NA`) si spécifié.
 
 ## Syntaxe
 
@@ -37,7 +22,7 @@ max(data$ma_variable)
 
 ### Exemple 1
 
-Dans ce premier exemple, nous allons utiliser la fonction `max()` pour obtenir la valeur maximale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus grande valeur parmi ces nombres.
+Dans ce premier exemple, nous allons utiliser la fonction **`max()`** pour obtenir la valeur maximale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus grande valeur parmi ces nombres.
 
 ``` r
 ---

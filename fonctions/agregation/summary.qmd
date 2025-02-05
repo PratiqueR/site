@@ -5,3 +5,57 @@ lang: fr
 categories:
   - aggrégation
 ---
+
+La fonction **`summary()`** permet d’obtenir un résumé statistique d’un jeu de données ou d’un vecteur numérique. Elle affiche des statistiques clés comme la **valeur minimale**, le **premier quartile (Q1)**, la **médiane (Q2)**, la **moyenne**, le **troisième quartile (Q3)** et la **valeur maximale**.  
+
+Si l’objet passé en argument est un **data frame**, la fonction retourne un résumé pour chaque colonne du jeu de données.
+
+## Syntaxe  
+
+L'utilisation de `summary()` est très simple. Il suffit de lui passer un **vecteur**, une **colonne d’un data frame** ou un **data frame entier**.  
+
+``` r
+---
+summary(data$ma_variable) # Variable
+
+summary(data) # Dataframe
+---
+```
+
+`x` peut être un **vecteur numérique**, un **facteur**, un **data frame** ou même un **modèle statistique**.
+
+## Exemple
+
+### Exemple 1
+
+Dans ce premier exemple, nous allons utiliser la fonction `summary()` pour obtenir un résumé statistique d’un vecteur numérique.
+
+``` r
+---
+summary(c(10,25,30,45,50,60,75))
+---
+```
+
+``` {r echo = FALSE}
+summary(c(10,25,30,45,50,60,75))
+```
+
+On peut voir ici que :
+
+- La valeur minimale est **10**.
+
+- Le premier quartile (Q1) est **25**.
+
+- La médiane (Q2) est **45**.
+
+- La moyenne est **42.14**.
+
+- Le troisième quartile (Q3) est **55**.
+
+- La valeur maximale est **75**.
+
+### Exemple 2
+
+
+
+

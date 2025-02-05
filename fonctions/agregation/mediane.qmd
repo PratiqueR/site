@@ -6,7 +6,7 @@ categories:
   - aggrégation
 ---
 
-La fonction **MEDIAN()** permet de calculer la médiane d’un ensemble de valeurs numériques. La médiane est la valeur centrale d’un ensemble de nombres triés dans l’ordre croissant. Si le nombre d’éléments est impair, la médiane est le nombre du milieu. Si le nombre d’éléments est pair, la médiane est la moyenne des deux valeurs centrales.
+La fonction **`median()`** permet de calculer la **médiane** d’un ensemble de valeurs numériques. La médiane est la valeur centrale d’un ensemble de nombres triés dans l’ordre croissant. Si le nombre d’éléments est impair, la médiane est le nombre du milieu. Si le nombre d’éléments est pair, la médiane est la moyenne des deux valeurs centrales.
 
 ## Syntaxe
 
@@ -22,7 +22,7 @@ median(data$ma_variable)
 
 ### Exemple 1
 
-Dans ce premier exemple, nous allons utiliser la fonction `median()` pour obtenir la valeur centrale d'un ensemble de chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction trie les valeurs et retourne la médiane.
+Dans ce premier exemple, nous allons utiliser la fonction **`median()`** pour obtenir la valeur centrale d'un ensemble de chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction trie les valeurs et retourne la médiane.
 
 ``` r
 ---
