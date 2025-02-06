@@ -51,47 +51,48 @@ website:
                 
               - section: "Aggrégation"
                 contents:
-                    - fonctions/agregation/somme.qmd
-                    - fonctions/agregation/minimum.qmd
-                    - fonctions/agregation/maximum.qmd
-                    - fonctions/agregation/moyenne.qmd
-                    - fonctions/agregation/mediane.qmd
-                    - fonctions/agregation/sd.qmd
-                    - fonctions/agregation/variance.qmd
-                    - fonctions/agregation/prod.qmd
-                    - fonctions/agregation/length.qmd
-                    - fonctions/agregation/range.qmd
-                    - fonctions/agregation/summary.qmd
-                    - fonctions/agregation/table.qmd
-                    - fonctions/agregation/quantile.qmd
+                    - pages/fonctions/agregation/somme.qmd
+                    - pages/fonctions/agregation/minimum.qmd
+                    - pages/fonctions/agregation/maximum.qmd
+                    - pages/fonctions/agregation/moyenne.qmd
+                    - pages/fonctions/agregation/mediane.qmd
+                    - pages/fonctions/agregation/sd.qmd
+                    - pages/fonctions/agregation/variance.qmd
+                    - pages/fonctions/agregation/prod.qmd
+                    - pages/fonctions/agregation/length.qmd
+                    - pages/fonctions/agregation/range.qmd
+                    - pages/fonctions/agregation/summary.qmd
+                    - pages/fonctions/agregation/table.qmd
+                    - pages/fonctions/agregation/quantile.qmd
           
               - text: "Visualisation"
                 href: fonctions/visualisation.qmd
                  
               - section: "Manipulation de données"
                 contents:
-                    - fonctions/manipulation/subset.qmd
-                    - fonctions/manipulation/merge.qmd
-                    - fonctions/manipulation/cbind.qmd
-                    - fonctions/manipulation/rbind.qmd
-                    - fonctions/manipulation/apply.qmd
-                    - fonctions/manipulation/lapply.qmd
-                    - fonctions/manipulation/sapply.qmd
-                    - fonctions/manipulation/tapply.qmd
-                    - fonctions/manipulation/sort.qmd
-                    - fonctions/manipulation/order.qmd
-                    - fonctions/manipulation/split.qmd
-                    - fonctions/manipulation/transform.qmd
-                    - fonctions/manipulation/rep.qmd
-                    - fonctions/manipulation/seq.qmd
+                    - pages/fonctions/manipulation/subset.qmd
+                    - pages/fonctions/manipulation/merge.qmd
+                    - pages/fonctions/manipulation/cbind.qmd
+                    - pages/fonctions/manipulation/rbind.qmd
+                    - pages/fonctions/manipulation/apply.qmd
+                    - pages/fonctions/manipulation/lapply.qmd
+                    - pages/fonctions/manipulation/sapply.qmd
+                    - pages/fonctions/manipulation/tapply.qmd
+                    - pages/fonctions/manipulation/sort.qmd
+                    - pages/fonctions/manipulation/order.qmd
+                    - pages/fonctions/manipulation/split.qmd
+                    - pages/fonctions/manipulation/transform.qmd
+                    - pages/fonctions/manipulation/rep.qmd
+                    - pages/fonctions/manipulation/seq.qmd
                     
               - section: "Tests statistiques"
                 contents:
-                    - fonctions/test/
-                    - fonctions/test/
+                    - pages/fonctions/test/
+                    - pages/fonctions/test/
           
           - section: "Packages"
-            contents:  
+            contents: 
+                    - pages/packages/introduction_packages.qmd  
           - section: "Machine Learning"
             contents:
           - section: "Deep Learning"
@@ -100,6 +101,7 @@ website:
             contents:
           - section: "Shiny"
             contents:
+                    - pages/shiny/introduction_shiny.qmd
           - section: "Quarto"
             contents:
                     - pages/quarto/presentation_quarto.qmd

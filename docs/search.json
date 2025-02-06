@@ -633,5 +633,512 @@
       "Aggrégation",
       "TABLE()"
     ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/mediane.html",
+    "href": "pages/fonctions/agregation/mediane.html",
+    "title": "MEDIAN()",
+    "section": "",
+    "text": "La fonction median() permet de calculer la médiane d’un ensemble de valeurs numériques. La médiane est la valeur centrale d’un ensemble de nombres triés dans l’ordre croissant. Si le nombre d’éléments est impair, la médiane est le nombre du milieu. Si le nombre d’éléments est pair, la médiane est la moyenne des deux valeurs centrales.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEDIAN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/mediane.html#syntaxe",
+    "href": "pages/fonctions/agregation/mediane.html#syntaxe",
+    "title": "MEDIAN()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir la médiane. Voici la syntaxe de base pour calculer la médiane d’une variable dans un data frame :\n---\nmedian(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEDIAN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/mediane.html#exemple",
+    "href": "pages/fonctions/agregation/mediane.html#exemple",
+    "title": "MEDIAN()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction median() pour obtenir la valeur centrale d’un ensemble de chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction trie les valeurs et retourne la médiane.\n---\nmedian(c(1,3,5,7,9))\n---\n\n\n[1] 5\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEDIAN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/moyenne.html",
+    "href": "pages/fonctions/agregation/moyenne.html",
+    "title": "MEAN()",
+    "section": "",
+    "text": "La fonction mean() permet de calculer la moyenne arithmétique des éléments d’un objet numérique (vecteur, matrice, variable …). Elle additionne les valeurs numériques et les divise par leur nombre total. Par défaut, les valeurs manquantes (NA) ne sont pas ignorées et renvoient un résultat NA.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEAN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/moyenne.html#syntaxe",
+    "href": "pages/fonctions/agregation/moyenne.html#syntaxe",
+    "title": "MEAN()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite calculer la moyenne. Voici la syntaxe de base pour obtenir la moyenne d’une variable dans un data frame :\n---\nmean(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEAN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/moyenne.html#exemple",
+    "href": "pages/fonctions/agregation/moyenne.html#exemple",
+    "title": "MEAN()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction mean() pour calculer la moyenne de plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la moyenne de ces nombres.\n---\nmean(1,2,3,4,5)\n---\n\n\n[1] 1\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MEAN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/quantile.html",
+    "href": "pages/fonctions/agregation/quantile.html",
+    "title": "QUANTILE()",
+    "section": "",
+    "text": "La fonction quantile() permet de calculer les quantiles d’un ensemble de valeurs numériques. Un quantile est une valeur qui divise les données en segments égaux.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "QUANTILE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/quantile.html#syntaxe",
+    "href": "pages/fonctions/agregation/quantile.html#syntaxe",
+    "title": "QUANTILE()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de la fonction se fait en fournissant un vecteur numérique ainsi qu’un vecteur de probabilités correspondant aux quantiles souhaités. Par défaut, la fonction retourne les quartiles (0%, 25%, 50%, 75%, 100%), mais il est possible de spécifier d’autres probabilités.\n---\nquantile(data$ma_variable) # Variable au format numeric uniquement !\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "QUANTILE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/quantile.html#exemple",
+    "href": "pages/fonctions/agregation/quantile.html#exemple",
+    "title": "QUANTILE()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nCalculons les quartiles d’un ensemble de données :\n---\nquantile(c(10, 20, 30, 40, 50)) # Par défaut, les quartiles sont : 0%, 25%, 50%, 75%, 100%\n---\n\n\n  0%  25%  50%  75% 100% \n  10   20   30   40   50 \n\n\nEssayons avec une probabilité différente, spécifié avec le pramètre probs = :\n---\nquantile(c(10, 20, 30, 40, 50), probs = 0.80) # Probabilité : 80%\n---\n\n\n80% \n 42 \n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "QUANTILE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/somme.html",
+    "href": "pages/fonctions/agregation/somme.html",
+    "title": "SUM()",
+    "section": "",
+    "text": "La fonction sum(), permet de calculer la somme des éléments d’un objet numérique (vecteur, matrice, variable …). Elle n’additionne que les valeurs numériques et ignore automatiquement les valeurs manquantes (NA).",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SUM()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/somme.html#syntaxe",
+    "href": "pages/fonctions/agregation/somme.html#syntaxe",
+    "title": "SUM()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction se fait de manière simple en indiquant les valeurs ou la variable à additionner. Voici la syntaxe de base pour additionner les éléments d’une variable dans un data frame, par exemple :\n---\nsum(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SUM()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/somme.html#exemple",
+    "href": "pages/fonctions/agregation/somme.html#exemple",
+    "title": "SUM()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction sum() pour additionner plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la somme de ces nombres.\n---\nsum(1,2,3)\n---\n\n\n[1] 6\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SUM()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/length.html",
+    "href": "pages/fonctions/agregation/length.html",
+    "title": "LENGTH()",
+    "section": "",
+    "text": "La fonction length() permet d’obtenir le nombre d’éléments contenus dans un objet (vecteur, liste, colonne d’un data frame…). Elle est couramment utilisée pour connaître la taille d’un vecteur ou le nombre d’observations d’une variable.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "LENGTH()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/length.html#syntaxe",
+    "href": "pages/fonctions/agregation/length.html#syntaxe",
+    "title": "LENGTH()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer l’objet dont on souhaite connaître la taille. Voici la syntaxe de base pour obtenir la longueur d’un vecteur ou d’une variable d’un data frame :\n---\nlength(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "LENGTH()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/length.html#exemple",
+    "href": "pages/fonctions/agregation/length.html#exemple",
+    "title": "LENGTH()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction length() pour connaître le nombre d’éléments d’un vecteur numérique.\n---\nlength(c(1,2,3,4,5))\n---\n\n\n[1] 5\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "LENGTH()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/summary.html",
+    "href": "pages/fonctions/agregation/summary.html",
+    "title": "SUMMARY()",
+    "section": "",
+    "text": "La fonction summary() permet d’obtenir un résumé statistique d’un jeu de données ou d’un vecteur numérique. Elle affiche des statistiques clés comme la valeur minimale, le premier quartile (Q1), la médiane (Q2), la moyenne, le troisième quartile (Q3) et la valeur maximale.\nSi l’objet passé en argument est un data frame, la fonction retourne un résumé pour chaque colonne du jeu de données.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SUMMARY()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/summary.html#syntaxe",
+    "href": "pages/fonctions/agregation/summary.html#syntaxe",
+    "title": "SUMMARY()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de summary() est très simple. Il suffit de lui passer un vecteur, une colonne d’un data frame ou un data frame entier.\n---\nsummary(data$ma_variable) # Variable\n\nsummary(data) # Dataframe\n---\nx peut être un vecteur numérique, un facteur, un data frame ou même un modèle statistique.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SUMMARY()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/summary.html#exemple",
+    "href": "pages/fonctions/agregation/summary.html#exemple",
+    "title": "SUMMARY()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction summary() pour obtenir un résumé statistique d’un vecteur numérique.\n---\nsummary(c(10,25,30,45,50,60,75))\n---\n\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  10.00   27.50   45.00   42.14   55.00   75.00 \n\n\nOn peut voir ici que :\n\nLa valeur minimale est 10.\nLe premier quartile (Q1) est 25.\nLa médiane (Q2) est 45.\nLa moyenne est 42.14.\nLe troisième quartile (Q3) est 55.\nLa valeur maximale est 75.\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SUMMARY()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/variance.html",
+    "href": "pages/fonctions/agregation/variance.html",
+    "title": "VAR()",
+    "section": "",
+    "text": "La fonction var() permet de calculer la variance d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne. Plus la variance est élevée, plus les valeurs sont dispersées.\nLa variance (\\(sigma^2\\) pour une population, \\(s^2\\) pour un échantillon) est définie par la formule suivante :\n\\[\ns^2 = \\frac{1}{n-1} \\sum_{i=1}^{n} (x_i - \\bar{x})^2\n\\]\noù :",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "VAR()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/variance.html#syntaxe",
+    "href": "pages/fonctions/agregation/variance.html#syntaxe",
+    "title": "VAR()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir la variance. Voici la syntaxe de base pour calculer la variance d’une variable dans un data frame :\nvar(data$ma_variable)",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "VAR()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/variance.html#exemple",
+    "href": "pages/fonctions/agregation/variance.html#exemple",
+    "title": "VAR()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction var() pour calculer la variance d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.\n---\nvar(c(1,2,3,4,5))\n---\n\n\n[1] 2.5\n\n\nIci, la variance est 2.5, ce qui représente la dispersion des valeurs autour de leur moyenne.\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "VAR()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/sd.html",
+    "href": "pages/fonctions/agregation/sd.html",
+    "title": "SD()",
+    "section": "",
+    "text": "La fonction sd() permet de calculer l’écart-type d’un ensemble de valeurs numériques. L’écart-type mesure la dispersion des données autour de leur moyenne. Plus l’écart-type est élevé, plus les valeurs sont dispersées.\nL’écart-type (\\(\\sigma\\) pour une population, \\(s\\) pour un échantillon) est défini par la formule suivante :\n\\[\ns = \\sqrt{\\frac{1}{n-1} \\sum_{i=1}^{n} (x_i - \\bar{x})^2}\n\\]\noù :",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SD()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/sd.html#syntaxe",
+    "href": "pages/fonctions/agregation/sd.html#syntaxe",
+    "title": "SD()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir l’écart-type. Voici la syntaxe de base pour calculer l’écart-type d’une variable dans un data frame :\nsd(data$ma_variable)",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SD()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/sd.html#exemple",
+    "href": "pages/fonctions/agregation/sd.html#exemple",
+    "title": "SD()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction sd() pour calculer l’écart-type d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.\n---\nsd(c(1,2,3,4,5))\n---\n\n\n[1] 1.581139\n\n\nIci, l’écart-type est 1.58, ce qui indique la dispersion des valeurs autour de leur moyenne.\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "SD()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/maximum.html",
+    "href": "pages/fonctions/agregation/maximum.html",
+    "title": "MAX()",
+    "section": "",
+    "text": "La fonction max() permet de calculer la valeur maximale d’un objet numérique (vecteur, matrice, variable…). Elle renvoie la plus grande valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/maximum.html#syntaxe",
+    "href": "pages/fonctions/agregation/maximum.html#syntaxe",
+    "title": "MAX()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple, il suffit d’indiquer les valeurs ou la variable pour laquelle vous souhaitez trouver la valeur maximale. Voici la syntaxe de base pour obtenir la valeur maximale d’une variable dans un data frame, par exemple :\n---\nmax(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/maximum.html#exemple",
+    "href": "pages/fonctions/agregation/maximum.html#exemple",
+    "title": "MAX()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction max() pour obtenir la valeur maximale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus grande valeur parmi ces nombres.\n---\nmax(1,2,3)\n---\n\n\n[1] 3\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MAX()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/minimum.html",
+    "href": "pages/fonctions/agregation/minimum.html",
+    "title": "MIN()",
+    "section": "",
+    "text": "La fonction min() permet de calculer la valeur minimale d’un objet numérique (vecteur, matrice, variable …). Elle renvoie la plus petite valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (NA) si spécifié.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MIN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/minimum.html#syntaxe",
+    "href": "pages/fonctions/agregation/minimum.html#syntaxe",
+    "title": "MIN()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple, il suffit d’indiquer les valeurs ou la variable pour laquelle vous souhaitez trouver la valeur minimale. Voici la syntaxe de base pour obtenir la valeur minimale d’une variable dans un data frame, par exemple :\n---\nmin(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MIN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/minimum.html#exemple",
+    "href": "pages/fonctions/agregation/minimum.html#exemple",
+    "title": "MIN()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction min() pour obtenir la valeur minimale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus petite valeur parmi ces nombres.\n---\nmin(1,2,3)\n---\n\n\n[1] 1\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "MIN()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/range.html",
+    "href": "pages/fonctions/agregation/range.html",
+    "title": "RANGE()",
+    "section": "",
+    "text": "La fonction range() permet d’obtenir l’étendue d’un ensemble de valeurs numériques, c’est-à-dire la plus petite et la plus grande valeur du jeu de données. Elle est utile pour connaître rapidement l’amplitude des données.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "RANGE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/range.html#syntaxe",
+    "href": "pages/fonctions/agregation/range.html#syntaxe",
+    "title": "RANGE()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de la fonction range() se fait en lui passant un vecteur numérique. Elle renvoie un vecteur de deux éléments : le minimum et le maximum.\n---\nrange(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "RANGE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/range.html#exemple",
+    "href": "pages/fonctions/agregation/range.html#exemple",
+    "title": "RANGE()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons utiliser la fonction range() pour déterminer l’étendue d’un ensemble de nombres. Il suffit de passer les valeurs dans la fonction, et celle-ci renverra le plus petit et le plus grand nombre du jeu de données.\n---\nrange(5,10,2,8,3)\n---\n\n\n[1]  2 10\n\n\nIci, la valeur minimale est 2 et la valeur maximale est 10.\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "RANGE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/table.html",
+    "href": "pages/fonctions/agregation/table.html",
+    "title": "TABLE()",
+    "section": "",
+    "text": "La fonction table() permet de calculer la fréquence des valeurs présentes dans un vecteur ou un jeu de données. Elle est particulièrement utile pour analyser la répartition des catégories dans un facteur ou une variable qualitative.\nSi plusieurs vecteurs sont passés en argument, table() génère un tableau de contingence, utile pour analyser la distribution conjointe de plusieurs variables.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "TABLE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/table.html#syntaxe",
+    "href": "pages/fonctions/agregation/table.html#syntaxe",
+    "title": "TABLE()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de table() est simple : il suffit de lui passer un vecteur ou plusieurs vecteurs pour obtenir un comptage des valeurs.\ntable(data$ma_variable)\n\ntable(x)\n\ntable(x, y) # Plusieurs vecteurs pour un tableau de contingence\nx est un vecteur (numérique, caractère ou facteur).",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "TABLE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/table.html#exemple",
+    "href": "pages/fonctions/agregation/table.html#exemple",
+    "title": "TABLE()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemlpe 1\nDans ce premier exemple, nous allons utiliser la fonction table() pour compter la fréquence des éléments d’un vecteur contenant des catégories.\n---\nfruits &lt;- c(\"Pomme\", \"Banane\", \"Pomme\", \"Orange\", \"Banane\", \"Pomme\", \"Orange\")\n\ntable(fruits)\n---\n\n\nfruits\nBanane Orange  Pomme \n     2      2      3 \n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "TABLE()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/prod.html",
+    "href": "pages/fonctions/agregation/prod.html",
+    "title": "PROD()",
+    "section": "",
+    "text": "La fonction prod() permet de calculer le produit des éléments d’un objet numérique (vecteur, matrice, variable …). Elle multiplie uniquement les valeurs numériques et ignore automatiquement les valeurs manquantes (NA).",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "PROD()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/prod.html#syntaxe",
+    "href": "pages/fonctions/agregation/prod.html#syntaxe",
+    "title": "PROD()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable contenant les éléments à multiplier.\n---\nprod(data$ma_variable)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "PROD()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/agregation/prod.html#exemple",
+    "href": "pages/fonctions/agregation/prod.html#exemple",
+    "title": "PROD()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans cet exemple, nous allons utiliser la fonction prod() pour multiplier plusieurs nombres. Il suffit de passer les valeurs dans la fonction, séparées par des virgules :\n---\nprod(2,3,4)\n---\n\n\n[1] 24\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Aggrégation",
+      "PROD()"
+    ]
   }
 ]

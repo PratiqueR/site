@@ -1,0 +1,7 @@
+---
+title: "Introduction à Shiny"
+
+lang: fr
+categories:
+  - shiny
+---
