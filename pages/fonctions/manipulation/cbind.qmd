@@ -5,3 +5,39 @@ lang: fr
 categories:
   - manipulation
 ---
+
+La fonction **`cbind()`** permet de combiner plusieurs vecteurs ou colonnes d’un dataframe en les accolant côte à côte. Elle est utile pour fusionner des données de manière horizontale.
+
+## Syntaxe
+
+L’utilisation de cette fonction se fait en indiquant les objets à combiner :
+
+``` r
+---
+cbind(dataframe1, dataframe2, ...)
+---
+```
+
+## Exemple
+
+### Exemple 1
+
+Dans cet exemple, nous allons combiner deux vecteurs pour former une matrice :
+
+``` r
+---
+vecteur1 <- c(1, 2, 3)
+vecteur2 <- c(4, 5, 6)
+matrice <- cbind(vecteur1, vecteur2)
+print(matrice)
+---
+```
+
+``` {r echo = FALSE}
+vecteur1 <- c(1, 2, 3)
+vecteur2 <- c(4, 5, 6)
+matrice <- cbind(vecteur1, vecteur2)
+print(matrice)
+```
+
+### Exemple 2

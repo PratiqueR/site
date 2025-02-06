@@ -5,3 +5,45 @@ lang: fr
 categories:
   - manipulation
 ---
+
+La fonction **`apply()`** permet d’appliquer une fonction à chaque ligne ou colonne d’une matrice ou d’un dataframe. Elle est particulièrement utile pour éviter les boucles `for` et rendre le code plus concis et efficace.
+
+## Syntaxe
+
+La fonction s’utilise en indiquant l’objet à manipuler, la dimension sur laquelle appliquer la fonction et la fonction elle-même. Voici la syntaxe générale :
+
+``` r
+---
+apply(X, MARGIN, FUN, ...)
+---
+```
+
+où :
+
+  - `X` est la matrice ou le dataframe,
+
+  - `MARGIN` = 1 applique la fonction aux lignes, `MARGIN` = 2 aux colonnes,
+
+  - `FUN` est la fonction à appliquer (par exemple sum, mean, etc.).
+  
+## Exemple
+
+### Exemple 1
+
+Dans ce premier exemple, nous allons calculer la moyenne de chaque colonne d’une matrice grâce à **`apply()`** :
+
+``` r
+---
+mat <- matrix(1:9, nrow = 3, byrow = TRUE) # Création d'une matrice
+
+apply(mat, 2, mean) # Moyenne des colonnes
+---
+```
+
+``` {r, echo = FALSE}
+mat <- matrix(1:9, nrow = 3, byrow = TRUE) # Création d'une matrice
+apply(mat, 2, mean) # Moyenne des colonnes
+```
+
+### Exemple 2
+  

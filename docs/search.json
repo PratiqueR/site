@@ -1140,5 +1140,83 @@
       "Aggrégation",
       "PROD()"
     ]
+  },
+  {
+    "objectID": "pages/fonctions/manipulation/apply.html",
+    "href": "pages/fonctions/manipulation/apply.html",
+    "title": "APPLY()",
+    "section": "",
+    "text": "La fonction apply() permet d’appliquer une fonction à chaque ligne ou colonne d’une matrice ou d’un dataframe. Elle est particulièrement utile pour éviter les boucles for et rendre le code plus concis et efficace.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Manipulation de données",
+      "APPLY()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/manipulation/apply.html#syntaxe",
+    "href": "pages/fonctions/manipulation/apply.html#syntaxe",
+    "title": "APPLY()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nLa fonction s’utilise en indiquant l’objet à manipuler, la dimension sur laquelle appliquer la fonction et la fonction elle-même. Voici la syntaxe générale :\n---\napply(X, MARGIN, FUN, ...)\n---\noù :\n\nX est la matrice ou le dataframe,\nMARGIN = 1 applique la fonction aux lignes, MARGIN = 2 aux colonnes,\nFUN est la fonction à appliquer (par exemple sum, mean, etc.).",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Manipulation de données",
+      "APPLY()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/manipulation/apply.html#exemple",
+    "href": "pages/fonctions/manipulation/apply.html#exemple",
+    "title": "APPLY()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans ce premier exemple, nous allons calculer la moyenne de chaque colonne d’une matrice grâce à apply() :\n---\nmat &lt;- matrix(1:9, nrow = 3, byrow = TRUE) # Création d'une matrice\n\napply(mat, 2, mean) # Moyenne des colonnes\n---\n\n\n[1] 4 5 6\n\n\n\n\nExemple 2",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Manipulation de données",
+      "APPLY()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/manipulation/cbind.html",
+    "href": "pages/fonctions/manipulation/cbind.html",
+    "title": "CBIND()",
+    "section": "",
+    "text": "La fonction cbind() permet de combiner plusieurs vecteurs ou colonnes d’un dataframe en les accolant côte à côte. Elle est utile pour fusionner des données de manière horizontale.",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Manipulation de données",
+      "CBIND()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/manipulation/cbind.html#syntaxe",
+    "href": "pages/fonctions/manipulation/cbind.html#syntaxe",
+    "title": "CBIND()",
+    "section": "Syntaxe",
+    "text": "Syntaxe\nL’utilisation de cette fonction se fait en indiquant les objets à combiner :\n---\ncbind(dataframe1, dataframe2, ...)\n---",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Manipulation de données",
+      "CBIND()"
+    ]
+  },
+  {
+    "objectID": "pages/fonctions/manipulation/cbind.html#exemple",
+    "href": "pages/fonctions/manipulation/cbind.html#exemple",
+    "title": "CBIND()",
+    "section": "Exemple",
+    "text": "Exemple\n\nExemple 1\nDans cet exemple, nous allons combiner deux vecteurs pour former une matrice :\n---\nvecteur1 &lt;- c(1, 2, 3)\nvecteur2 &lt;- c(4, 5, 6)\nmatrice &lt;- cbind(vecteur1, vecteur2)\nprint(matrice)\n---\n\n\n     vecteur1 vecteur2\n[1,]        1        4\n[2,]        2        5\n[3,]        3        6",
+    "crumbs": [
+      "Accueil",
+      "Fonctions R",
+      "Manipulation de données",
+      "CBIND()"
+    ]
   }
 ]
