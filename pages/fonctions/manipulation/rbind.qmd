@@ -5,3 +5,67 @@ lang: fr
 categories:
   - manipulation
 ---
+
+La fonction **`rbind()`** permet de combiner des objets de type tableau (*matrices, data frames*) en ajoutant de nouvelles lignes. Elle est particulièrement utile pour empiler des jeux de données partageant les mêmes colonnes.
+
+## Syntaxe
+
+L’utilisation de cette fonction se fait en indiquant les objets à combiner :
+
+``` r
+---
+rbind(dataframe1, dataframe2, ...)
+---
+```
+
+Il est important que les objets aient le même nombre de colonnes et que leurs types soient compatibles, sinon une erreur se produira.
+
+## Exemple
+
+### Exemple 1
+
+Dans ce premier exemple, nous allons utiliser la fonction `rbind()` pour empiler deux matrices ayant le même nombre de colonnes.
+
+``` r
+---
+mat1 <- matrix(1:6, nrow = 2, ncol = 3) # De 1 à 6
+mat2 <- matrix(7:12, nrow = 2, ncol = 3) # De 7 à 12
+resultat <- rbind(mat1, mat2)
+print(resultat)
+---
+```
+
+```{r echo = FALSE}
+mat1 <- matrix(1:6, nrow = 2, ncol = 3)
+mat2 <- matrix(7:12, nrow = 2, ncol = 3)
+resultat <- rbind(mat1, mat2)
+print(resultat)
+```
+
+Cela produit une nouvelle matrice avec les lignes de `mat1` suivies de celles de `mat2`.
+
+### Exemple 2
+
+On utilise maintenant `rbind` pour combiner deux dataframe :
+
+``` r
+---
+df1 <- data.frame(A = c(1, 2), B = c("a", "b"))
+df2 <- data.frame(A = c(3, 4), B = c("c", "d"))
+resultat <- rbind(df1, df2)
+print(resultat)
+---
+```
+
+```{r echo = FALSE}
+df1 <- data.frame(A = c(1, 2), B = c("a", "b"))
+df2 <- data.frame(A = c(3, 4), B = c("c", "d"))
+resultat <- rbind(df1, df2)
+print(resultat)
+```
+
+Ici, les lignes du second dataframe sont ajoutées au premier, tant que les colonnes sont identiques.
+
+
+
+
