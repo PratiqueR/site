@@ -477,11 +477,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#origine" id="toc-origine" class="nav-link" data-scroll-target="#origine">Origine</a></li>
+  <li><a href="#comment-ça-marche" id="toc-comment-ça-marche" class="nav-link" data-scroll-target="#comment-ça-marche">Comment ça marche ?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Shiny</a></li><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Introduction à Shiny</a></li></ol></nav>
 <div class="quarto-title">
@@ -493,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -505,8 +513,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="présentation" class="level1">
+<h1>Présentation</h1>
+<p>Shiny est un <code>package</code> qui permet de créer facilement des applications web interactives, entièrement en R, sans nécessiter de connaissances en HTML, CSS ou JavaScript. Il fournit un ensemble d’outils puissants pour concevoir des interfaces dynamiques et réactives, facilitant ainsi l’exploration et la visualisation des données en temps réel. Les applications Shiny peuvent être ensuite déployées localement, sur un server ou via des plateformes comme ShinyApps.io, permettant ainsi de partager des analyses avec d’autres utilisateurs de manière simple et efficace.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image_shiny/exemple_introduction.gif" class="img-fluid figure-img" width="700"></p>
+<figcaption>Exemple d’application Shiny développé avec R</figcaption>
+</figure>
+</div>
+</section>
+<section id="origine" class="level1">
+<h1>Origine</h1>
+<p>Ce framework web, gratuit et open source, a été annoncé en 2012 par Joe Cheng, directeur technique de Posit (anciennement RStudio). Conçu pour simplifier le développement d’applications web interactives, il était initialement disponible en R, mais depuis 2022, il peut également être utilisé avec Python. L’un des usages courants de Shiny est le prototypage rapide.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Framework
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Structure logicielle qui fournit un ensemble d’outils, de bibliothèques et de bonnes pratiques pour faciliter le développement d’applications. Il sert de socle sur lequel nous pouvons construire un projet sans repartir de zéro.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Prototypage rapide
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Capacité à concevoir et tester rapdidement des applications, sans avoir à passer par un développement web traditionnel impliquant HTML, CSS, JS …</p>
+</div>
+</div>
+</div>
+<p>L’implémentation distincte de Shiny annoncé en 2022 ne vise pas à remplacer la version R. Les deux versions sont développées en parallèle et pourraient ne jamais inclure les mêmes fonctionnalités.</p>
+</section>
+<section id="comment-ça-marche" class="level1">
+<h1>Comment ça marche ?</h1>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

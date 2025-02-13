@@ -1257,5 +1257,17 @@
       "Manipulation de données",
       "RBIND()"
     ]
+  },
+  {
+    "objectID": "pages/shiny/introduction_shiny.html",
+    "href": "pages/shiny/introduction_shiny.html",
+    "title": "Introduction à Shiny",
+    "section": "",
+    "text": "Présentation\nShiny est un package qui permet de créer facilement des applications web interactives, entièrement en R, sans nécessiter de connaissances en HTML, CSS ou JavaScript. Il fournit un ensemble d’outils puissants pour concevoir des interfaces dynamiques et réactives, facilitant ainsi l’exploration et la visualisation des données en temps réel. Les applications Shiny peuvent être ensuite déployées localement, sur un server ou via des plateformes comme ShinyApps.io, permettant ainsi de partager des analyses avec d’autres utilisateurs de manière simple et efficace.\n\n\n\nExemple d’application Shiny développé avec R\n\n\n\n\nOrigine\nCe framework web, gratuit et open source, a été annoncé en 2012 par Joe Cheng, directeur technique de Posit (anciennement RStudio). Conçu pour simplifier le développement d’applications web interactives, il était initialement disponible en R, mais depuis 2022, il peut également être utilisé avec Python. L’un des usages courants de Shiny est le prototypage rapide.\n\n\n\n\n\n\nFramework\n\n\n\n\n\nStructure logicielle qui fournit un ensemble d’outils, de bibliothèques et de bonnes pratiques pour faciliter le développement d’applications. Il sert de socle sur lequel nous pouvons construire un projet sans repartir de zéro.\n\n\n\n\n\n\n\n\n\nPrototypage rapide\n\n\n\n\n\nCapacité à concevoir et tester rapdidement des applications, sans avoir à passer par un développement web traditionnel impliquant HTML, CSS, JS …\n\n\n\nL’implémentation distincte de Shiny annoncé en 2022 ne vise pas à remplacer la version R. Les deux versions sont développées en parallèle et pourraient ne jamais inclure les mêmes fonctionnalités.\n\n\nComment ça marche ?",
+    "crumbs": [
+      "Accueil",
+      "Shiny",
+      "Introduction à Shiny"
+    ]
   }
 ]
