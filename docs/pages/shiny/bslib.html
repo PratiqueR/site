@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction à Shiny – PratiqueR</title>
+<title>Package Bslib – PratiqueR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -169,7 +135,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Shiny</a></li><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Introduction à Shiny</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Shiny</a></li><li class="breadcrumb-item"><a href="../../pages/shiny/bslib.html">Package Bslib</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
@@ -463,20 +429,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/shiny/introduction_shiny.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../pages/shiny/introduction_shiny.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction à Shiny</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/shiny/bslib.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/shiny/bslib.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Package Bslib</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../pages/shiny/tutoriel_application.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Premier pas avec Shiny</span></a>
   </div>
 </li>
       </ul>
@@ -523,24 +483,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
-  <li><a href="#origine" id="toc-origine" class="nav-link" data-scroll-target="#origine">Origine</a></li>
-  <li><a href="#avantages" id="toc-avantages" class="nav-link" data-scroll-target="#avantages">Avantages</a></li>
-  <li><a href="#comment-ça-marche" id="toc-comment-ça-marche" class="nav-link" data-scroll-target="#comment-ça-marche">Comment ça marche ?</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Shiny</a></li><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Introduction à Shiny</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Shiny</a></li><li class="breadcrumb-item"><a href="../../pages/shiny/bslib.html">Package Bslib</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Introduction à Shiny</h1>
+<h1 class="title">Package Bslib</h1>
   <div class="quarto-categories">
     <div class="quarto-category">shiny</div>
   </div>
@@ -548,7 +499,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta column-page-right">
 
     
   
@@ -560,79 +511,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="présentation" class="level1">
-<h1>Présentation</h1>
-<p>Shiny est un <code>package</code> qui permet de créer facilement des applications web interactives, entièrement en R, sans nécessité de connaissances en HTML, CSS ou JavaScript. Il fournit un ensemble d’outils puissants pour concevoir des interfaces dynamiques et réactives, facilitant ainsi l’exploration et la visualisation des données en temps réel. Les applications Shiny peuvent être ensuite déployées localement, sur un server ou via des plateformes comme ShinyApps.io, permettant ainsi de partager des analyses avec d’autres utilisateurs de manière simple et efficace.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image_shiny/exemple_introduction.gif" class="img-fluid figure-img" width="417"></p>
-<figcaption>Exemple d’application Shiny développé avec R</figcaption>
-</figure>
-</div>
-</section>
-<section id="origine" class="level1">
-<h1>Origine</h1>
-<p>Ce framework web, gratuit et open source, a été annoncé en 2012 par Joe Cheng, directeur technique de Posit (anciennement RStudio). Conçu pour simplifier le développement d’applications web interactives, il était initialement disponible en R, mais depuis 2022, il peut également être utilisé avec Python. L’un des usages courants de Shiny est le prototypage rapide.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Framework
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Structure logicielle qui fournit un ensemble d’outils, de bibliothèques et de bonnes pratiques pour faciliter le développement d’applications. Il sert de socle sur lequel nous pouvons construire un projet sans repartir de zéro.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Prototypage rapide
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Capacité à concevoir et à tester rapidementt des applications, sans avoir à passer par un développement web traditionnel impliquant HTML, CSS, JS …</p>
-</div>
-</div>
-</div>
-<p>L’implémentation distincte de Shiny annoncé en 2022 ne vise pas à remplacer la version R. Les deux versions sont développées en parallèle et pourraient ne jamais inclure les mêmes fonctionnalités.</p>
-</section>
-<section id="avantages" class="level1">
-<h1>Avantages</h1>
-<p>Shiny est beaucoup plus utilisé qu’on ne le pense. Entreprises, chercheurs, institutions académiques ou encore organisations gouvernementales l’utilisent pour créer des applications web interactives.</p>
-<p>En effet, Shiny est gratuit et open-source ce qui en fait un outil accessible et flexible. Développer une application interactive et visuellement attrayante devient relativement simple lorsqu’on maîtrise R 😉. Dans le cas échéant, pas d’inquiétude, de nombreux exemples et templates existent. Vous pourrez les réutiliser et les adapter à votre projet.</p>
-<p>Un des principaux avantages de Shiny est qu’il est basé sur R et intégré à RStudio, ce qui permet d’incorporer toutes les fonctionnalités d’analyse de R dans les applications.”</p>
-<p>Enfin, les applications sont complètement personnalisables avec du HTML et du CSS, qui sont les langages de base pour la création de pages web.</p>
-<p>En revanche, Shiny est spécifiquement conçu pour R, ce qui peut poser des difficultés pour ceux qui ne sont pas familiers avec ce langage. De plus, comparé à d’autres frameworks, Shiny peut être un peu limité en termes de personnalisation du front-end et de scalabilité.</p>
-</section>
-<section id="comment-ça-marche" class="level1">
-<h1>Comment ça marche ?</h1>
-<p>Tout d’abord, le code d’une application Shiny est contenu dans un fichier au format <code>.R</code>. L’anatomie de ce fichier est particulière, aucune inquiétude, elle est en réalité très simple.</p>
-<p>Elle se divise en deux parties principales :</p>
-<ul>
-<li><p><strong>User Interface (ui)</strong> : Cette partie regroupe tous les éléments visibles par l’utilisateur, tels que le titre, les composants, la mise en forme, les boutons… Concrètement, dans le langage des développeurs, c’est le <code>front</code> de l’application. C’est tout ce que l’utilisateur de l’application voit et avec quoi il interagit. Cette partie contrôle la présentation et l’apparence de l’application.</p></li>
-<li><p><strong>Server function (server)</strong> : La partie <code>server</code> contient toutes les instructions nécessaires au fonctionnement de l’application. Dans le langage des développeurs, elle correspond au <code>back-end</code>`, c’est-à-dire la partie de l’application qui gère la logique, les calculs et les données. Elle contient le code qui définit comment réagir aux actions de l’utilisateur.</p></li>
-</ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>ui <span class="ot">&lt;-</span> <span class="fu">fluidPage</span>()</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>server <span class="ot">&lt;-</span> <span class="cf">function</span>(input, output, session) {}</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">shinyApp</span>(ui, server)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>L’instruction <code>shinyApp(ui, server)</code> permet de lancer une application Shiny en combinant l’interface utilisateur (ui) et la logique serveur (server). Lorsqu’on exécute cette commande, l’application Shiny démarre et devient interactive.</p>
-<p>On se retrouve ici pour un tutoriel et pour réaliser votre première application !</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

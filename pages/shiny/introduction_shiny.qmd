@@ -8,9 +8,9 @@ categories:
 
 # Présentation
 
-Shiny est un `package` qui permet de créer facilement des applications web interactives, entièrement en R, sans nécessiter de connaissances en HTML, CSS ou JavaScript. Il fournit un ensemble d’outils puissants pour concevoir des interfaces dynamiques et réactives, facilitant ainsi l’exploration et la visualisation des données en temps réel. Les applications Shiny peuvent être ensuite déployées localement, sur un server ou via des plateformes comme ShinyApps.io, permettant ainsi de partager des analyses avec d'autres utilisateurs de manière simple et efficace.
+Shiny est un `package` qui permet de créer facilement des applications web interactives, entièrement en R, sans nécessité de connaissances en HTML, CSS ou JavaScript. Il fournit un ensemble d’outils puissants pour concevoir des interfaces dynamiques et réactives, facilitant ainsi l’exploration et la visualisation des données en temps réel. Les applications Shiny peuvent être ensuite déployées localement, sur un server ou via des plateformes comme ShinyApps.io, permettant ainsi de partager des analyses avec d'autres utilisateurs de manière simple et efficace.
 
-![Exemple d'application Shiny développé avec R](image_shiny/exemple_introduction.gif){fig-align="center" width="700"}
+![Exemple d'application Shiny développé avec R](image_shiny/exemple_introduction.gif){fig-align="center" width="417"}
 
 # Origine
 
@@ -25,9 +25,41 @@ Structure logicielle qui fournit un ensemble d'outils, de bibliothèques et de b
 ::: {.callout-note collapse="true"}
 # Prototypage rapide
 
-Capacité à concevoir et tester rapdidement des applications, sans avoir à passer par un développement web traditionnel impliquant HTML, CSS, JS ...
+Capacité à concevoir et à tester rapidementt des applications, sans avoir à passer par un développement web traditionnel impliquant HTML, CSS, JS ...
 :::
 
 L'implémentation distincte de Shiny annoncé en 2022 ne vise pas à remplacer la version R. Les deux versions sont développées en parallèle et pourraient ne jamais inclure les mêmes fonctionnalités.
 
+# Avantages
+
+Shiny est beaucoup plus utilisé qu'on ne le pense. Entreprises, chercheurs, institutions académiques ou encore organisations gouvernementales l'utilisent pour créer des applications web interactives.
+
+En effet, Shiny est gratuit et open-source ce qui en fait un outil accessible et flexible. Développer une application interactive et visuellement attrayante devient relativement simple lorsqu'on maîtrise R 😉. Dans le cas échéant, pas d'inquiétude, de nombreux exemples et templates existent. Vous pourrez les réutiliser et les adapter à votre projet.
+
+Un des principaux avantages de Shiny est qu'il est basé sur R et intégré à RStudio, ce qui permet d'incorporer toutes les fonctionnalités d'analyse de R dans les applications."
+
+Enfin, les applications sont complètement personnalisables avec du HTML et du CSS, qui sont les langages de base pour la création de pages web.
+
+En revanche, Shiny est spécifiquement conçu pour R, ce qui peut poser des difficultés pour ceux qui ne sont pas familiers avec ce langage. De plus, comparé à d'autres frameworks, Shiny peut être un peu limité en termes de personnalisation du front-end et de scalabilité.
+
 # Comment ça marche ?
+
+Tout d'abord, le code d'une application Shiny est contenu dans un fichier au format `.R`. L'anatomie de ce fichier est particulière, aucune inquiétude, elle est en réalité très simple.
+
+Elle se divise en deux parties principales :
+
+-   **User Interface (ui)** : Cette partie regroupe tous les éléments visibles par l'utilisateur, tels que le titre, les composants, la mise en forme, les boutons... Concrètement, dans le langage des développeurs, c'est le `front` de l'application. C'est tout ce que l'utilisateur de l'application voit et avec quoi il interagit. Cette partie contrôle la présentation et l'apparence de l'application.
+
+-   **Server function (server)** : La partie `server` contient toutes les instructions nécessaires au fonctionnement de l'application. Dans le langage des développeurs, elle correspond au `back-end`\`, c'est-à-dire la partie de l'application qui gère la logique, les calculs et les données. Elle contient le code qui définit comment réagir aux actions de l'utilisateur.
+
+``` r
+ui <- fluidPage()
+
+server <- function(input, output, session) {}
+
+shinyApp(ui, server)
+```
+
+L'instruction `shinyApp(ui, server)` permet de lancer une application Shiny en combinant l'interface utilisateur (ui) et la logique serveur (server). Lorsqu'on exécute cette commande, l'application Shiny démarre et devient interactive.
+
+On se retrouve ici pour un tutoriel et pour réaliser votre première application !
