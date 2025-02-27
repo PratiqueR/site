@@ -6,8 +6,6 @@ categories:
   - shiny
 ---
 
-# Présentation
-
 Shiny est un `package` qui permet de créer facilement des applications web interactives, entièrement en R, sans nécessité de connaissances en HTML, CSS ou JavaScript. Il fournit un ensemble d’outils puissants pour concevoir des interfaces dynamiques et réactives, facilitant ainsi l’exploration et la visualisation des données en temps réel. Les applications Shiny peuvent être ensuite déployées localement, sur un server ou via des plateformes comme ShinyApps.io, permettant ainsi de partager des analyses avec d'autres utilisateurs de manière simple et efficace.
 
 ![Exemple d'application Shiny développé avec R](image_shiny/exemple_introduction.gif){fig-align="center" width="417"}

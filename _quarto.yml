@@ -4,11 +4,11 @@ project:
 
 website:
   
-  title: "PratiqueR"
+  image: "image_pratiquer"
   
   navbar:
-    
-    background: success
+
+    logo : logo_pratiquer.png
   
     left:
       - href: index.qmd
@@ -85,10 +85,10 @@ website:
                     - pages/fonctions/manipulation/rep.qmd
                     - pages/fonctions/manipulation/seq.qmd
                     
-              - section: "Tests statistiques"
+              - section: "Statistiques"
                 contents:
-                    - pages/fonctions/test/
-                    - pages/fonctions/test/
+                    - pages/fonctions/stats/
+                    - pages/fonctions/stats/
           
           - section: "Packages"
             contents: 
@@ -123,8 +123,8 @@ website:
 format:
   html:
     theme: 
-        light: default
-        dark: solar
+          light: litera
+          dark: [darkly, styles-dark.scss]
     css: styles.css
     toc: true
     page-layout: full

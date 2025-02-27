@@ -8,7 +8,6 @@ listing:
   type: grid
   categories: true
   sort-ui: true
-  filter-ui: true
 ---
 
 La pratique constitue l'étape la plus importante dans l'apprentissage d'un langage de programmation. C'est en pratiquant que vous pourrez devenir habile et rusé comme un renard.

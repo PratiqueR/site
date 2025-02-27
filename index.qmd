@@ -7,3 +7,5 @@ toc: false
 
 PratiqueR est votre **nouvel espace d'apprentissage interactif**. Que vous soyez un débutant curieux ou un expert en quête de perfectionnement, ce site est conçu pour vous !\
 Ici, vous trouverez des **exercices pratiques**, des **tutoriels détaillés**, des **astuces** et des **bonnes pratiques** pour devenir un maître de R.
+
+

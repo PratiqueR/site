@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction à Shiny – PratiqueR</title>
+<title>Introduction à Shiny</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -114,8 +114,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">PratiqueR</span>
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../logo_pratiquer.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Recherche"></div>
@@ -469,14 +469,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/shiny/bslib.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Package Bslib</span></a>
+  <a href="../../pages/shiny/tutoriel_application.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Premier pas avec Shiny</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../pages/shiny/tutoriel_application.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Premier pas avec Shiny</span></a>
+  <a href="../../pages/shiny/bslib.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Package Bslib</span></a>
   </div>
 </li>
       </ul>
@@ -528,8 +528,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
-  <li><a href="#origine" id="toc-origine" class="nav-link" data-scroll-target="#origine">Origine</a></li>
+  <li><a href="#origine" id="toc-origine" class="nav-link active" data-scroll-target="#origine">Origine</a></li>
   <li><a href="#avantages" id="toc-avantages" class="nav-link" data-scroll-target="#avantages">Avantages</a></li>
   <li><a href="#comment-ça-marche" id="toc-comment-ça-marche" class="nav-link" data-scroll-target="#comment-ça-marche">Comment ça marche ?</a></li>
   </ul>
@@ -560,8 +559,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="présentation" class="level1">
-<h1>Présentation</h1>
 <p>Shiny est un <code>package</code> qui permet de créer facilement des applications web interactives, entièrement en R, sans nécessité de connaissances en HTML, CSS ou JavaScript. Il fournit un ensemble d’outils puissants pour concevoir des interfaces dynamiques et réactives, facilitant ainsi l’exploration et la visualisation des données en temps réel. Les applications Shiny peuvent être ensuite déployées localement, sur un server ou via des plateformes comme ShinyApps.io, permettant ainsi de partager des analyses avec d’autres utilisateurs de manière simple et efficace.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -569,7 +566,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figcaption>Exemple d’application Shiny développé avec R</figcaption>
 </figure>
 </div>
-</section>
 <section id="origine" class="level1">
 <h1>Origine</h1>
 <p>Ce framework web, gratuit et open source, a été annoncé en 2012 par Joe Cheng, directeur technique de Posit (anciennement RStudio). Conçu pour simplifier le développement d’applications web interactives, il était initialement disponible en R, mais depuis 2022, il peut également être utilisé avec Python. L’un des usages courants de Shiny est le prototypage rapide.</p>
