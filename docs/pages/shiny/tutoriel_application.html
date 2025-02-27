@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bienvenue sur PratiqueR ! 🚀 – PratiqueR</title>
+<title>Premier pas avec Shiny – PratiqueR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PratiqueR</span>
     </a>
   </div>
@@ -91,19 +91,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./exercice.html"> 
+    <a class="nav-link" href="../../exercice.html"> 
 <span class="menu-text">Exercice</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Bienvenue sur PratiqueR ! 🚀</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Shiny</a></li><li class="breadcrumb-item"><a href="../../pages/shiny/tutoriel_application.html">Premier pas avec Shiny</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
@@ -157,19 +157,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/presentation_R.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/presentation_R.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Qu’est ce que R ?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/installation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/installation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Installation et Configuration</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/bonne_pratique.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/bonne_pratique.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bonne pratiques</span></a>
   </div>
 </li>
@@ -197,79 +197,79 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/somme.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/somme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SUM()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/minimum.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/minimum.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MIN()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/maximum.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/maximum.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MAX()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/moyenne.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/moyenne.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MEAN()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/mediane.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/mediane.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MEDIAN()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/sd.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/sd.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SD()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/variance.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/variance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">VAR()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/prod.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/prod.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PROD()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/length.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/length.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LENGTH()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/range.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/range.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">RANGE()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/summary.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SUMMARY()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/table.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/table.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TABLE()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/agregation/quantile.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/agregation/quantile.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">QUANTILE()</span></a>
   </div>
 </li>
@@ -277,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fonctions/visualisation.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../../fonctions/visualisation.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Visualisation</span></a>
   </div>
 </li>
@@ -292,85 +292,85 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/subset.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/subset.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SUBSET()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/merge.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/merge.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MERGE()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/cbind.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/cbind.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CBIND()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/rbind.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/rbind.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">RBIND()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/apply.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/apply.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">APPLY()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/lapply.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/lapply.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LAPPLY()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/sapply.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/sapply.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SAPPLY()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/tapply.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/tapply.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TAPPLY()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/sort.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/sort.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SORT()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/order.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/order.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ORDER()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/split.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/split.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SPLIT()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/transform.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/transform.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRANSFORM()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/rep.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/rep.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">REP()</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/fonctions/manipulation/seq.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/fonctions/manipulation/seq.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SEQ()</span></a>
   </div>
 </li>
@@ -400,7 +400,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/packages/introduction_packages.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/packages/introduction_packages.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction au Packages</span></a>
   </div>
 </li>
@@ -429,20 +429,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/shiny/introduction_shiny.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/shiny/introduction_shiny.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction à Shiny</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/shiny/tutoriel_application.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Premier pas avec Shiny</span></a>
+  <a href="../../pages/shiny/bslib.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Package Bslib</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/shiny/bslib.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Package Bslib</span></a>
+  <a href="../../pages/shiny/tutoriel_application.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Premier pas avec Shiny</span></a>
   </div>
 </li>
       </ul>
@@ -458,7 +458,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/quarto/presentation_quarto.html" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/quarto/presentation_quarto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction à Quarto</span></a>
   </div>
 </li>
@@ -466,13 +466,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/rmarkdown.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/rmarkdown.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rmarkdown</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pages/webscraping.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../../pages/webscraping.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Web scraping</span></a>
   </div>
 </li>
@@ -489,15 +489,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content column-page-right" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../pages/shiny/introduction_shiny.html">Shiny</a></li><li class="breadcrumb-item"><a href="../../pages/shiny/tutoriel_application.html">Premier pas avec Shiny</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Bienvenue sur PratiqueR ! 🚀</h1>
-<p class="subtitle lead">Maîtrisez R en vous exerçant – Tutoriels, astuces et défis pour booster vos compétences !</p>
-</div>
+<h1 class="title">Premier pas avec Shiny</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">shiny</div>
+  </div>
+  </div>
 
 
 
@@ -513,8 +517,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>PratiqueR est votre <strong>nouvel espace d’apprentissage interactif</strong>. Que vous soyez un débutant curieux ou un expert en quête de perfectionnement, ce site est conçu pour vous !<br>
-Ici, vous trouverez des <strong>exercices pratiques</strong>, des <strong>tutoriels détaillés</strong>, des <strong>astuces</strong> et des <strong>bonnes pratiques</strong> pour devenir un maître de R.</p>
 
 
 

@@ -102,8 +102,8 @@ website:
           - section: "Shiny"
             contents:
                     - pages/shiny/introduction_shiny.qmd
-                    - pages/shiny/bslib.qmd
                     - pages/shiny/tutoriel_application.qmd
+                    - pages/shiny/bslib.qmd
           - section: "Quarto"
             contents:
                     - pages/quarto/presentation_quarto.qmd
