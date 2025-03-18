@@ -84,11 +84,11 @@ website:
                     - pages/fonctions/manipulation/transform.qmd
                     - pages/fonctions/manipulation/rep.qmd
                     - pages/fonctions/manipulation/seq.qmd
-                    
-              - section: "Statistiques"
-                contents:
-                    - pages/fonctions/stats/
-                    - pages/fonctions/stats/
+       
+          - section: "Statistiques"
+            contents:
+                  - pages/fonctions/stats/
+                  - pages/fonctions/stats/
           
           - section: "Packages"
             contents: 
