@@ -10,7 +10,7 @@ La fonction **`length()`** permet d'obtenir le **nombre** d'éléments contenus 
 
 ## Syntaxe
 
-L'utilisation de cette fonction est simple : il suffit d'indiquer l'objet dont on souhaite connaître la taille. Voici la syntaxe de base pour obtenir la longueur d’un vecteur ou d’une variable d’un data frame :
+La fonction prend en entrée le nom de l'objet dont on souhaite connaître la taille. Voici la syntaxe de base pour obtenir la longueur d’un vecteur ou d’une variable d’un data frame :
 
 ``` r
 ---
@@ -20,9 +20,7 @@ length(data$ma_variable)
 
 ## Exemple
 
-### Exemple 1
-
-Dans ce premier exemple, nous allons utiliser la fonction **`length()`** pour connaître le nombre d’éléments d’un vecteur numérique.
+Ici, on utilise la fonction **`length()`** pour connaître le nombre d’éléments d’un vecteur numérique.
 
 ``` r
 ---
@@ -33,5 +31,3 @@ length(c(1,2,3,4,5))
 ```{r echo=FALSE}
 length(c(1,2,3,4,5))
 ```
-
-### Exemple 2

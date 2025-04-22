@@ -1,10 +1,10 @@
 ---
-title: "Contactez-nous ! 📩"
+title: "Contactez-nous !"
 lang: fr
 toc: false
 ---
 
-Si vous avez des questions, des suggestions ou si vous souhaitez collaborer, n’hésitez pas à nous contacter via le formulaire ci-dessous ou sur nos réseaux sociaux.  
+Si vous avez des questions, des suggestions ou si vous souhaitez collaborer, n’hésitez pas à nous contacter via le formulaire ci-dessous.  
 
 ```{=html}
 <style>
@@ -71,56 +71,7 @@ Si vous avez des questions, des suggestions ou si vous souhaitez collaborer, n�
 </form>
 ```
 
-# 🔗 Nos réseaux
 
-Retrouvez-nous sur nos réseaux et suivez nos dernières actualités :  
 
-```{=html}
-<style>
-  .social-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-  }
-
-  .social-button {
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    color: white;
-    transition: 0.3s ease-in-out;
-  }
-
-  .twitter { background: #1DA1F2; }
-  .github { background: #333; }
-  .linkedin { background: #0077B5; }
-
-  .social-button:hover {
-    opacity: 0.8;
-    transform: scale(1.05);
-  }
-
-  .social-button i {
-    margin-right: 8px;
-  }
-</style>
-
-<div class="social-buttons">
-  <a href="https://twitter.com/" class="social-button twitter" target="_blank">
-    🐦 Twitter
-  </a>
-  <a href="https://github.com/PratiqueR" class="social-button github" target="_blank">
-    👨‍💻 GitHub
-  </a>
-  <a href="https://www.linkedin.com/in/PratiqueR/" class="social-button linkedin" target="_blank">
-    🔗 LinkedIn
-  </a>
-</div>
-```
 
 

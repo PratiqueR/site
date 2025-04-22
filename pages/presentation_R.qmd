@@ -1,4 +1,0 @@
----
-title: "Qu'est ce que R ?"
----
-

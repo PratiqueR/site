@@ -1,11 +1,24 @@
 ---
-title: "Bienvenue sur PratiqueR ! 🚀"
-subtitle: "Maîtrisez R en vous exerçant – Tutoriels, astuces et défis pour booster vos compétences !"
+title: "Bienvenue sur PratiqueR !"
+description: "Un site pensé pour celles et ceux qui souhaitent apprendre R en pratiquant. Que vous soyez débutant curieux ou utilisateur confirmé, découvrez comment manipuler, analyser et visualiser des données efficacement grâce à des tutoriels, exercices et bonnes pratiques. Apprenez R avec PratiqueR"
 lang: fr
-toc: false
 ---
 
-PratiqueR est votre **nouvel espace d'apprentissage interactif**. Que vous soyez un débutant curieux ou un expert en quête de perfectionnement, ce site est conçu pour vous !\
-Ici, vous trouverez des **exercices pratiques**, des **tutoriels détaillés**, des **astuces** et des **bonnes pratiques** pour devenir un maître de R.
+:::{.callout-tip}
+## Nouveautés !
 
+Lancement de la chaîne youtube [PratiqueR](https://www.youtube.com/@PratiqueR).
 
+Vous y retrouverez des mini-projets de data science, des problèmes concrets et des concepts expliqués de manière simple et progressive.
+:::
+
+::: {layout="[30,70]"}
+
+![](images/reflexion.jpg)
+
+Ce site est conçu pour les personnes qui souhaitent apprendre à utiliser le langage R pour analyser, visualiser et comprendre des données.
+R permet de faire des choses formidables : créer des graphiques élégants, faire des analyses statistiques très poussées, manipuler des données en un clin d’œil, mettre en place des modèles de machine learning, et même construire des applications interactives avec Shiny.
+Tous les exemples et exercices que vous trouverez ici sont là pour vous aider à apprendre R en pratiquant, pas à pas, et à votre rythme.
+:::
+
+# Pourquoi R ?

@@ -5,10 +5,19 @@ project:
 website:
   
   image: "image_pratiquer"
+  description: "Apprendre la data science avec R, 2025"
+  twitter-card: true
+  open-graph: true
+  reader-mode: true
+  page-navigation: true
+  repo-branch: main
+  repo-actions: [issue]
+
   
   navbar:
 
     logo : logo_pratiquer.png
+    background: primary
   
     left:
       - href: index.qmd
@@ -22,19 +31,17 @@ website:
         
     right: 
       - icon: youtube
-        href: https://youtube/PratiqueR
+        href: https://www.youtube.com/@PratiqueR
       - icon: github
         href: https://github.com/PratiqueR
       - icon: envelope
         href: mailto:pratiquerpro@outlook.com
         
   sidebar:
-        style: "docked"
+        style: "floating"
         search: true
         contents:
-          - text: "Qu'est ce que R ?"
-            href: pages/presentation_R.qmd
-            
+
           - text: "Installation et Configuration"
             href: pages/installation.qmd
             
@@ -123,11 +130,9 @@ website:
 format:
   html:
     theme: 
-          light: litera
-          dark: [darkly, styles-dark.scss]
+          light: cosmo
     css: styles.css
     toc: true
-    page-layout: full
 
 editor: visual
 
