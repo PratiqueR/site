@@ -6,11 +6,11 @@ categories:
   - aggrégation
 ---
 
-La fonction **`min()`** permet de calculer la valeur **minimale** d’un objet numérique (*vecteur, matrice, variable ...*). Elle renvoie la plus petite valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (`NA`) si spécifié.
+La fonction **`min()`** permet d'obtenir la valeur **minimale** d’un objet numérique (*vecteur, matrice, variable ...*). Elle renvoie la plus petite valeur parmi celles présentes dans l’objet, en ignorant automatiquement les valeurs manquantes (`NA`) si spécifié.
 
 ## Syntaxe
 
-L’utilisation de cette fonction est simple, il suffit d'indiquer les valeurs ou la variable pour laquelle vous souhaitez trouver la valeur minimale. Voici la syntaxe de base pour obtenir la valeur minimale d’une variable dans un data frame, par exemple :
+La fonction prend en entrée l'objet ou les valeurs pour lesquels vous souhaitez trouver la valeur minimale. Voici la syntaxe de base pour obtenir la valeur maximale d’une variable dans un data frame :
 
 ``` r
 ---
@@ -20,21 +20,18 @@ min(data$ma_variable)
 
 ## Exemple
 
-### Exemple 1
-
-Dans ce premier exemple, nous allons utiliser la fonction **`min()`** pour obtenir la valeur minimale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction calcule ensuite la plus petite valeur parmi ces nombres.
+Ici, nous utilisons la fonction **`min()`** pour obtenir la valeur minimale parmi plusieurs chiffres. Il suffit de passer les nombres dans la fonction, en les séparant par des virgules. La fonction renvoie ensuite la plus petite valeur parmi ces chiffres.
 
 ``` r
 ---
-min(1,2,3)
+min(6,3,8,1,4,5)
 ---
 ```
 
 ```{r echo=FALSE}
-min(1,2,3)
+min(6,3,8,1,4,5)
 ```
 
-### Exemple 2
 
 
 

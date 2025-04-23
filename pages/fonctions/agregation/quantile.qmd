@@ -10,7 +10,7 @@ La fonction **`quantile()`** permet de calculer les **quantiles** d’un ensembl
 
 ## Syntaxe
 
-L'utilisation de la fonction se fait en fournissant un vecteur numérique ainsi qu’un vecteur de probabilités correspondant aux quantiles souhaités. Par défaut, la fonction retourne les quartiles (`0%, 25%, 50%, 75%, 100%`), mais il est possible de spécifier d’autres probabilités.
+La fonction prend en entrée un vecteur numérique ou une variable. Par défaut, la fonction retourne les quartiles (`0%, 25%, 50%, 75%, 100%`), mais il est également possible de spécifier d’autres probabilités. Voici la syntaxe de base pour obtenir les quartiles d’une variable dans un data frame :
 
 ``` r
 ---
@@ -20,30 +20,26 @@ quantile(data$ma_variable) # Variable au format numeric uniquement !
 
 ## Exemple
 
-### Exemple 1
-
 Calculons les quartiles d’un ensemble de données :
 
 ``` r
 ---
-quantile(c(10, 20, 30, 40, 50)) # Par défaut, les quartiles sont : 0%, 25%, 50%, 75%, 100%
+quantile(c(6,3,8,1,4,5)) # Par défaut, les quartiles sont : 0%, 25%, 50%, 75%, 100%
 ---
 ```
 
 ```{r echo=FALSE}
-quantile(c(10, 20, 30, 40, 50))
+quantile(c(6,3,8,1,4,5))
 ```
 
 Essayons avec une probabilité différente, spécifié avec le pramètre `probs =` :
 
 ``` r
 ---
-quantile(c(10, 20, 30, 40, 50), probs = 0.80) # Probabilité : 80%
+quantile(c(6,3,8,1,4,5), probs = 0.80) # Probabilité : 80%
 ---
 ```
 
 ```{r echo=FALSE}
-quantile(c(10, 20, 30, 40, 50), probs = 0.80)
+quantile(c(6,3,8,1,4,5), probs = 0.80)
 ```
-
-### Exemple 2

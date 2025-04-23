@@ -24,7 +24,7 @@ où :
 
 ## Syntaxe
 
-L’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir l’écart-type. Voici la syntaxe de base pour calculer l’écart-type d’une variable dans un data frame :
+La fonction prend en entrée les valeurs ou la variable dont on souhaite obtenir l’écart-type. Voici la syntaxe de base pour calculer l’écart-type d’une variable dans un data frame :
 
 ```r
 sd(data$ma_variable)
@@ -32,21 +32,17 @@ sd(data$ma_variable)
 
 ## Exemple
 
-### Exemple 1
-
-Dans ce premier exemple, nous allons utiliser la fonction **`sd()`** pour calculer l’écart-type d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.
+Ici, utiliser la fonction **`sd()`** pour calculer l’écart-type d’une liste de chiffres. Il suffit de passer les chiffres sous forme d’un vecteur dans la fonction.
 
 ``` r
 ---
-sd(c(1,2,3,4,5))
+sd(c(5,10,2,8,3))
 ---
 ```
 
 ```{r echo=FALSE}
-sd(c(1,2,3,4,5))
+sd(c(5,10,2,8,3))
 ```
 
-Ici, l’écart-type est 1.58, ce qui indique la dispersion des valeurs autour de leur moyenne.
-
-### Exemple 2
+Ici, l’écart-type est 3.36, ce qui indique la dispersion des valeurs autour de leur moyenne.
 

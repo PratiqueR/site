@@ -6,7 +6,7 @@ categories:
   - aggrégation
 ---
 
-La fonction **`var()`** permet de calculer la **variance** d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne. Plus la variance est élevée, plus les valeurs sont dispersées.
+La fonction **`var()`** permet de calculer la **variance** d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne.
 
 La variance ($sigma^2$ pour une population, $s^2$ pour un échantillon) est définie par la formule suivante :
 
@@ -24,7 +24,7 @@ où :
 
 ## Syntaxe
 
-L’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir la variance. Voici la syntaxe de base pour calculer la variance d’une variable dans un data frame :
+La fonction prend en entrée les valeurs ou la variable dont on souhaite obtenir la variance. Voici la syntaxe de base pour calculer la variance d’une variable dans un data frame :
 
 ```r
 var(data$ma_variable)
@@ -32,24 +32,17 @@ var(data$ma_variable)
 
 ## Exemple
 
-### Exemple 1
-
-Dans ce premier exemple, nous allons utiliser la fonction **`var()`** pour calculer la variance d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.
+Ici, nous utilisons la fonction **`var()`** pour calculer la variance d’une liste de chiffres. Il suffit de passer les chiffres sous forme d’un vecteur dans la fonction.
 
 ``` r
 ---
-var(c(1,2,3,4,5))
+var(c(6,3,8,1,4,5))
 ---
 ```
 
 ```{r echo=FALSE}
-var(c(1,2,3,4,5))
+var(c(6,3,8,1,4,5))
 ```
-
-Ici, la variance est 2.5, ce qui représente la dispersion des valeurs autour de leur moyenne.
-
-### Exemple 2
-
 
 
 

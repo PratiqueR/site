@@ -6,12 +6,11 @@ categories:
   - aggrégation
 ---
 
-La fonction **`range()`** permet d'obtenir l'**étendue** d'un ensemble de valeurs numériques, c'est-à-dire la plus petite et la plus grande valeur du jeu de données. Elle est utile pour connaître rapidement l'amplitude des données.
-
+La fonction **`range()`** permet d'obtenir l'**étendue** d'un objet (*vecteur, liste, colonne d’un data frame...*), c'est-à-dire la plus petite et la plus grande valeur du jeu de données. Elle est utile pour connaître rapidement l'amplitude des données.
 
 ## Syntaxe  
 
-L'utilisation de la fonction `range()` se fait en lui passant un **vecteur numérique**. Elle renvoie un **vecteur de deux éléments** : le minimum et le maximum.
+La fonction prend en entrée le nom de l'objet. Elle renvoie deux éléments : le `minimum` et le `maximum`. Voici la syntaxe de base pour obtenir l'étendue d'une variable d'un data frame :
 
 ``` r
 ---
@@ -21,9 +20,7 @@ range(data$ma_variable)
 
 ## Exemple
 
-### Exemple 1
-
-Dans ce premier exemple, nous allons utiliser la fonction **`range()`** pour déterminer l’étendue d’un ensemble de nombres. Il suffit de passer les valeurs dans la fonction, et celle-ci renverra le plus petit et le plus grand nombre du jeu de données.
+Ici, on utilise la fonction **`range()`** pour déterminer l’étendue d’un vecteur contenant des chiffres. 
 
 ``` r
 ---
@@ -36,12 +33,3 @@ range(5,10,2,8,3)
 ```
 
 Ici, la valeur minimale est **2** et la valeur maximale est **10**.
-
-### Exemple 2
-
-
-
-
-
-
-

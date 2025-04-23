@@ -10,7 +10,7 @@ La fonction **`prod()`** permet de calculer le **produit** des éléments d'un o
 
 ## Syntaxe  
 
-L’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable contenant les éléments à multiplier.  
+La fonction prend en entrée l'objet ou les valeurs dont vous souhaitez obtenir le produit. Voici la syntaxe de base pour obtenir le produit des valeurs d’une variable dans un data frame :
 
 ``` r
 ---
@@ -20,18 +20,14 @@ prod(data$ma_variable)
 
 ## Exemple
 
-### Exemple 1
-
-Dans cet exemple, nous allons utiliser la fonction **`prod()`** pour multiplier plusieurs nombres. Il suffit de passer les valeurs dans la fonction, séparées par des virgules :
+Ici, nous utilisons la fonction **`prod()`** pour multiplier plusieurs chiffres. Il suffit de passer les valeurs dans la fonction, séparées par des virgules :
 
 ``` r
 ---
-prod(2,3,4)
+prod(6,3,8,1,4,5)
 ---
 ```
 
 ```{r echo=FALSE}
-prod(2,3,4)
+prod(6,3,8,1,4,5)
 ```
-
-### Exemple 2

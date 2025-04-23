@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-48652d650551b7f0e393b8b7b65858a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-222a891f9c0b32310165cd907e32de0b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -540,11 +540,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#syntaxe" id="toc-syntaxe" class="nav-link active" data-scroll-target="#syntaxe">Syntaxe</a></li>
-  <li><a href="#exemple" id="toc-exemple" class="nav-link" data-scroll-target="#exemple">Exemple</a>
-  <ul class="collapse">
-  <li><a href="#exemple-1" id="toc-exemple-1" class="nav-link" data-scroll-target="#exemple-1">Exemple 1</a></li>
-  <li><a href="#exemple-2" id="toc-exemple-2" class="nav-link" data-scroll-target="#exemple-2">Exemple 2</a></li>
-  </ul></li>
+  <li><a href="#exemple" id="toc-exemple" class="nav-link" data-scroll-target="#exemple">Exemple</a></li>
   </ul>
 </nav>
     </div>
@@ -576,41 +572,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>La fonction <strong><code>quantile()</code></strong> permet de calculer les <strong>quantiles</strong> d’un ensemble de valeurs numériques. Un quantile est une valeur qui divise les données en segments égaux.</p>
 <section id="syntaxe" class="level2">
 <h2 class="anchored" data-anchor-id="syntaxe">Syntaxe</h2>
-<p>L’utilisation de la fonction se fait en fournissant un vecteur numérique ainsi qu’un vecteur de probabilités correspondant aux quantiles souhaités. Par défaut, la fonction retourne les quartiles (<code>0%, 25%, 50%, 75%, 100%</code>), mais il est possible de spécifier d’autres probabilités.</p>
+<p>La fonction prend en entrée un vecteur numérique ou une variable. Par défaut, la fonction retourne les quartiles (<code>0%, 25%, 50%, 75%, 100%</code>), mais il est également possible de spécifier d’autres probabilités. Voici la syntaxe de base pour obtenir les quartiles d’une variable dans un data frame :</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>(data<span class="sc">$</span>ma_variable) <span class="co"># Variable au format numeric uniquement !</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="exemple" class="level2">
 <h2 class="anchored" data-anchor-id="exemple">Exemple</h2>
-<section id="exemple-1" class="level3">
-<h3 class="anchored" data-anchor-id="exemple-1">Exemple 1</h3>
 <p>Calculons les quartiles d’un ensemble de données :</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>(<span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>)) <span class="co"># Par défaut, les quartiles sont : 0%, 25%, 50%, 75%, 100%</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>(<span class="fu">c</span>(<span class="dv">6</span>,<span class="dv">3</span>,<span class="dv">8</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">5</span>)) <span class="co"># Par défaut, les quartiles sont : 0%, 25%, 50%, 75%, 100%</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>  0%  25%  50%  75% 100% 
-  10   20   30   40   50 </code></pre>
+1.00 3.25 4.50 5.75 8.00 </code></pre>
 </div>
 </div>
 <p>Essayons avec une probabilité différente, spécifié avec le pramètre <code>probs =</code> :</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>(<span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>), <span class="at">probs =</span> <span class="fl">0.80</span>) <span class="co"># Probabilité : 80%</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>(<span class="fu">c</span>(<span class="dv">6</span>,<span class="dv">3</span>,<span class="dv">8</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">5</span>), <span class="at">probs =</span> <span class="fl">0.80</span>) <span class="co"># Probabilité : 80%</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>80% 
- 42 </code></pre>
+  6 </code></pre>
 </div>
 </div>
-</section>
-<section id="exemple-2" class="level3">
-<h3 class="anchored" data-anchor-id="exemple-2">Exemple 2</h3>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

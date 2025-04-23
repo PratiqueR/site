@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-48652d650551b7f0e393b8b7b65858a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-222a891f9c0b32310165cd907e32de0b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -569,11 +569,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#syntaxe" id="toc-syntaxe" class="nav-link active" data-scroll-target="#syntaxe">Syntaxe</a></li>
-  <li><a href="#exemple" id="toc-exemple" class="nav-link" data-scroll-target="#exemple">Exemple</a>
-  <ul class="collapse">
-  <li><a href="#exemple-1" id="toc-exemple-1" class="nav-link" data-scroll-target="#exemple-1">Exemple 1</a></li>
-  <li><a href="#exemple-2" id="toc-exemple-2" class="nav-link" data-scroll-target="#exemple-2">Exemple 2</a></li>
-  </ul></li>
+  <li><a href="#exemple" id="toc-exemple" class="nav-link" data-scroll-target="#exemple">Exemple</a></li>
   </ul>
 </nav>
     </div>
@@ -602,7 +598,7 @@ window.Quarto = {
 </header>
 
 
-<p>La fonction <strong><code>var()</code></strong> permet de calculer la <strong>variance</strong> d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne. Plus la variance est élevée, plus les valeurs sont dispersées.</p>
+<p>La fonction <strong><code>var()</code></strong> permet de calculer la <strong>variance</strong> d’un ensemble de valeurs numériques. La variance mesure la dispersion des données autour de leur moyenne.</p>
 <p>La variance (<span class="math inline">\(sigma^2\)</span> pour une population, <span class="math inline">\(s^2\)</span> pour un échantillon) est définie par la formule suivante :</p>
 <p><span class="math display">\[
 s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2
@@ -615,29 +611,22 @@ s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2
 </ul>
 <section id="syntaxe" class="level2">
 <h2 class="anchored" data-anchor-id="syntaxe">Syntaxe</h2>
-<p>L’utilisation de cette fonction est simple : il suffit d’indiquer les valeurs ou la variable dont on souhaite obtenir la variance. Voici la syntaxe de base pour calculer la variance d’une variable dans un data frame :</p>
+<p>La fonction prend en entrée les valeurs ou la variable dont on souhaite obtenir la variance. Voici la syntaxe de base pour calculer la variance d’une variable dans un data frame :</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">var</span>(data<span class="sc">$</span>ma_variable)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="exemple" class="level2">
 <h2 class="anchored" data-anchor-id="exemple">Exemple</h2>
-<section id="exemple-1" class="level3">
-<h3 class="anchored" data-anchor-id="exemple-1">Exemple 1</h3>
-<p>Dans ce premier exemple, nous allons utiliser la fonction <strong><code>var()</code></strong> pour calculer la variance d’un ensemble de chiffres. Il suffit de passer les nombres sous forme d’un vecteur dans la fonction.</p>
+<p>Ici, nous utilisons la fonction <strong><code>var()</code></strong> pour calculer la variance d’une liste de chiffres. Il suffit de passer les chiffres sous forme d’un vecteur dans la fonction.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">var</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>))</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">var</span>(<span class="fu">c</span>(<span class="dv">6</span>,<span class="dv">3</span>,<span class="dv">8</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">5</span>))</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 2.5</code></pre>
+<pre><code>[1] 5.9</code></pre>
 </div>
 </div>
-<p>Ici, la variance est 2.5, ce qui représente la dispersion des valeurs autour de leur moyenne.</p>
-</section>
-<section id="exemple-2" class="level3">
-<h3 class="anchored" data-anchor-id="exemple-2">Exemple 2</h3>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -6,13 +6,13 @@ categories:
   - aggrégation
 ---
 
-La fonction **`table()`** permet de calculer la **fréquence** des valeurs présentes dans un vecteur ou un jeu de données. Elle est particulièrement utile pour analyser la répartition des **catégories** dans un facteur ou une variable qualitative.  
+La fonction **`table()`** permet de calculer la **fréquence** des valeurs présentes dans un vecteur ou un jeu de données. Elle est particulièrement utile pour analyser la répartition des **catégories** dans une variable.  
 
 Si plusieurs vecteurs sont passés en argument, `table()` génère un **tableau de contingence**, utile pour analyser la distribution conjointe de plusieurs variables.  
 
 ## Syntaxe  
 
-L'utilisation de `table()` est simple : il suffit de lui passer un **vecteur** ou plusieurs **vecteurs** pour obtenir un comptage des valeurs.  
+Voici la syntaxe de base de la fonction :
 
 ```r
 table(data$ma_variable)
@@ -22,13 +22,9 @@ table(x)
 table(x, y) # Plusieurs vecteurs pour un tableau de contingence
 ```
 
-`x` est un vecteur (numérique, caractère ou facteur).
-
 ## Exemple
 
-### Exemlpe 1
-
-Dans ce premier exemple, nous allons utiliser la fonction **`table()`** pour compter la fréquence des éléments d’un vecteur contenant des catégories.
+Ici, nous utilisons la fonction **`table()`** pour compter la fréquence des éléments d’un vecteur contenant le nom de différents fruits.
 
 ```r
 ---
@@ -42,5 +38,3 @@ table(fruits)
 fruits <- c("Pomme", "Banane", "Pomme", "Orange", "Banane", "Pomme", "Orange")
 table(fruits)
 ```
-
-### Exemple 2

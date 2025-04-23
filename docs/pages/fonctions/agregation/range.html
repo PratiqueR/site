@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-48652d650551b7f0e393b8b7b65858a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-222a891f9c0b32310165cd907e32de0b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -540,11 +540,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#syntaxe" id="toc-syntaxe" class="nav-link active" data-scroll-target="#syntaxe">Syntaxe</a></li>
-  <li><a href="#exemple" id="toc-exemple" class="nav-link" data-scroll-target="#exemple">Exemple</a>
-  <ul class="collapse">
-  <li><a href="#exemple-1" id="toc-exemple-1" class="nav-link" data-scroll-target="#exemple-1">Exemple 1</a></li>
-  <li><a href="#exemple-2" id="toc-exemple-2" class="nav-link" data-scroll-target="#exemple-2">Exemple 2</a></li>
-  </ul></li>
+  <li><a href="#exemple" id="toc-exemple" class="nav-link" data-scroll-target="#exemple">Exemple</a></li>
   </ul>
 </nav>
     </div>
@@ -573,19 +569,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>La fonction <strong><code>range()</code></strong> permet d’obtenir l’<strong>étendue</strong> d’un ensemble de valeurs numériques, c’est-à-dire la plus petite et la plus grande valeur du jeu de données. Elle est utile pour connaître rapidement l’amplitude des données.</p>
+<p>La fonction <strong><code>range()</code></strong> permet d’obtenir l’<strong>étendue</strong> d’un objet (<em>vecteur, liste, colonne d’un data frame…</em>), c’est-à-dire la plus petite et la plus grande valeur du jeu de données. Elle est utile pour connaître rapidement l’amplitude des données.</p>
 <section id="syntaxe" class="level2">
 <h2 class="anchored" data-anchor-id="syntaxe">Syntaxe</h2>
-<p>L’utilisation de la fonction <code>range()</code> se fait en lui passant un <strong>vecteur numérique</strong>. Elle renvoie un <strong>vecteur de deux éléments</strong> : le minimum et le maximum.</p>
+<p>La fonction prend en entrée le nom de l’objet. Elle renvoie deux éléments : le <code>minimum</code> et le <code>maximum</code>. Voici la syntaxe de base pour obtenir l’étendue d’une variable d’un data frame :</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">range</span>(data<span class="sc">$</span>ma_variable)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="exemple" class="level2">
 <h2 class="anchored" data-anchor-id="exemple">Exemple</h2>
-<section id="exemple-1" class="level3">
-<h3 class="anchored" data-anchor-id="exemple-1">Exemple 1</h3>
-<p>Dans ce premier exemple, nous allons utiliser la fonction <strong><code>range()</code></strong> pour déterminer l’étendue d’un ensemble de nombres. Il suffit de passer les valeurs dans la fonction, et celle-ci renverra le plus petit et le plus grand nombre du jeu de données.</p>
+<p>Ici, on utilise la fonction <strong><code>range()</code></strong> pour déterminer l’étendue d’un vecteur contenant des chiffres.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">range</span>(<span class="dv">5</span>,<span class="dv">10</span>,<span class="dv">2</span>,<span class="dv">8</span>,<span class="dv">3</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -595,12 +589,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>Ici, la valeur minimale est <strong>2</strong> et la valeur maximale est <strong>10</strong>.</p>
-</section>
-<section id="exemple-2" class="level3">
-<h3 class="anchored" data-anchor-id="exemple-2">Exemple 2</h3>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
